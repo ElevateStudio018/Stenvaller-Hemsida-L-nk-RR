@@ -13,9 +13,10 @@ export function toE164(displayNumber: string): string {
   return toTelHref(displayNumber).replace("tel:", "");
 }
 
-/** "Lybeck 140, 442 91 Romelanda". */
+/** "Lybeck 140, 442 91 Romelanda", or as much of it as is set ("Stora Höga"). */
 export function fullAddress(company: Company): string {
-  return `${company.address.street}, ${company.address.postalCode} ${company.address.city}`;
+  const { street, postalCode, city } = company.address;
+  return [street, [postalCode, city].filter(Boolean).join(" ")].filter(Boolean).join(", ");
 }
 
 /** "Romelanda, Kungälv": the postal town and the municipality. */

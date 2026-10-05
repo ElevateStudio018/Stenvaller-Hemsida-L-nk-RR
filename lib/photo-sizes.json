@@ -1,67 +1,62 @@
 {
-  "hero-hamnen": [
+  "stenvaller-fastighet": [
     480,
     800,
     1200,
-    1536
+    1600
   ],
-  "markmontage-arbete": [
+  "stenvaller-gronyta": [
     480,
     800,
     1200,
-    1745
+    1600
   ],
-  "markmontage-gravmaskin-ror": [
+  "stenvaller-hero": [
     480,
     800,
     1200,
-    1500
+    1920
   ],
-  "markmontage-kabeltrumma": [
+  "stenvaller-host": [
     480,
     800,
     1200,
-    1700
+    1600
   ],
-  "markmontage-konferens": [
-    480,
-    800,
-    960
-  ],
-  "markmontage-minigravare-grasmatta": [
-    480,
-    720
-  ],
-  "markmontage-minigravare-slap": [
-    480,
-    720
-  ],
-  "markmontage-minigravare": [
+  "stenvaller-mark": [
     480,
     800,
     1200,
-    1500
+    1600
   ],
-  "markmontage-schakt-kabel": [
+  "stenvaller-maskin": [
     480,
     800,
     1200,
-    1805
+    1600
   ],
-  "markmontage-stalstomme": [
-    480,
-    800,
-    1125
-  ],
-  "markmontage-teamet": [
+  "stenvaller-renhallning": [
     480,
     800,
     1200,
-    2000
+    1600
   ],
-  "markmontage-vagarbete": [
+  "stenvaller-rojning": [
     480,
     800,
-    1170
+    1200,
+    1600
+  ],
+  "stenvaller-utemiljo": [
+    480,
+    800,
+    1200,
+    1600
+  ],
+  "stenvaller-vinter": [
+    480,
+    800,
+    1200,
+    1600
   ]
 }

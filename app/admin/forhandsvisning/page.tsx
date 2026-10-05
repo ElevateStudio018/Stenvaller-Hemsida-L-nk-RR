@@ -33,7 +33,7 @@ export default function PreviewPage() {
     function onMessage(event: MessageEvent) {
       if (event.origin !== window.location.origin) return;
       const data = event.data as PreviewMessage;
-      if (data?.type !== "markmontage-preview") return;
+      if (data?.type !== "stenvaller-preview") return;
       setSite(data.draft);
       setTarget(data.target);
     }

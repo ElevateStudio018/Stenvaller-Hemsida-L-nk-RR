@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 import { buttonClasses } from "./Button";
 
-const STORAGE_KEY = "markmontage-cookies";
-const OPEN_EVENT = "markmontage:cookie-settings";
+const STORAGE_KEY = "stenvaller-cookies";
+const OPEN_EVENT = "stenvaller:cookie-settings";
 
 type Choice = "accepted" | "declined";
 

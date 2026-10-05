@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const isGithubPages = process.env.GITHUB_PAGES === "true";
-const basePath = isGithubPages ? "/Bugg-test" : "";
+const basePath = isGithubPages ? "/Stenvaller-Hemsida-L-nk-RR" : "";
 
 const nextConfig = {
   reactStrictMode: true,

@@ -10,9 +10,9 @@ export type PreviewTarget =
   | { kind: "maintenance" };
 
 export interface PreviewMessage {
-  type: "markmontage-preview";
+  type: "stenvaller-preview";
   draft: SiteData;
   target: PreviewTarget;
 }
 
-export const PREVIEW_READY = "markmontage-preview-ready";
+export const PREVIEW_READY = "stenvaller-preview-ready";

@@ -6,7 +6,6 @@ import { subpages } from "@/lib/site/pages.ts";
 // How often each kind of page tends to change, and how much it matters, as hints for search engines.
 const pageHints: Record<string, { changeFrequency: "monthly" | "yearly"; priority: number }> = {
   "om-oss": { changeFrequency: "yearly", priority: 0.8 },
-  certifikat: { changeFrequency: "yearly", priority: 0.6 },
 };
 
 export default function sitemap(): MetadataRoute.Sitemap {

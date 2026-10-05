@@ -33,6 +33,8 @@ import {
   Ruler,
   ShieldCheck,
   Shovel,
+  Snowflake,
+  Sparkles,
   Star,
   ThumbsUp,
   TreePine,
@@ -79,6 +81,8 @@ const contentIconMap: Record<ContentIcon, typeof HardHat> = {
   Zap,
   TreePine,
   Fence,
+  Snowflake,
+  Sparkles,
 };
 
 const iconMap = {

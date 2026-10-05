@@ -36,6 +36,8 @@ const iconNames: Record<ContentIcon, string> = {
   Zap: "Blixt",
   TreePine: "Träd",
   Fence: "Staket",
+  Snowflake: "Snöflinga",
+  Sparkles: "Glans",
 };
 
 export function IconPicker({ label, value, onChange, hint }: { label: string; value: ContentIcon; onChange: (icon: ContentIcon) => void; hint?: string }) {

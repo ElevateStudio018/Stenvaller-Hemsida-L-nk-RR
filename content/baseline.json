@@ -2,27 +2,27 @@
   "schemaVersion": 1,
   "theme": {
     "colors": {
-      "primary": "#1C2817",
-      "secondary": "#131C10",
-      "accent": "#1C2817",
-      "background": "#E3E1D8",
-      "surface": "#F2F0E9",
+      "primary": "#26382B",
+      "secondary": "#18251C",
+      "accent": "#3F5A36",
+      "background": "#E4E3DC",
+      "surface": "#F3F2EC",
       "text": "#333333",
-      "heading": "#222222",
-      "muted": "#63625C",
-      "subtle": "#B6B5AE",
-      "border": "#222222",
+      "heading": "#1F241F",
+      "muted": "#5F625B",
+      "subtle": "#B4B5AD",
+      "border": "#1F241F",
       "input": "#FFFFFF",
-      "link": "#222222",
-      "button": "#1C2817",
-      "buttonHover": "#131C10",
+      "link": "#1F241F",
+      "button": "#26382B",
+      "buttonHover": "#18251C",
       "buttonText": "#FFFFFF",
-      "navigation": "#1C2817",
+      "navigation": "#26382B",
       "navigationText": "#FFFFFF",
-      "footer": "#1C2817",
+      "footer": "#26382B",
       "footerText": "#FFFFFF",
       "onPrimary": "#FFFFFF",
-      "success": "#1C2817",
+      "success": "#26382B",
       "warning": "#B45309",
       "error": "#B91C1C"
     },
@@ -42,8 +42,8 @@
     }
   },
   "settings": {
-    "siteName": "Markmontage BEAB AB",
-    "siteUrl": "https://www.markmontagebeab.se",
+    "siteName": "Stenvaller Entreprenad AB",
+    "siteUrl": "https://elevatestudio018.github.io/Stenvaller-Hemsida-L-nk-RR",
     "language": "sv",
     "favicon": {
       "src": "/icon.png",
@@ -61,26 +61,26 @@
     }
   },
   "company": {
-    "legalName": "Markmontage BEAB AB",
-    "shortName": "Markmontage",
-    "foundedYear": 2002,
-    "employees": 18,
-    "city": "Kungälv",
-    "serviceArea": "Kungälv, Göteborg och övriga Västra Götaland",
+    "legalName": "Stenvaller Entreprenad AB",
+    "shortName": "Stenvaller",
+    "foundedYear": 2026,
+    "employees": 0,
+    "city": "Stenungsund",
+    "serviceArea": "Stenungsund med omnejd",
     "address": {
-      "street": "Lybeck 140",
-      "postalCode": "442 91",
-      "city": "Romelanda",
+      "street": "",
+      "postalCode": "",
+      "city": "Stora Höga",
       "country": "SE",
       "geo": {
-        "lat": 57.90671,
-        "lng": 12.019944
+        "lat": 58.0165,
+        "lng": 11.8327
       }
     },
-    "phone": "031-385 41 41",
-    "email": "info@markmontage.se",
-    "orgNumber": "556625-8157",
-    "vatNumber": "SE556625815701",
+    "phone": "076-304 43 76",
+    "email": "",
+    "orgNumber": "559575-8540",
+    "vatNumber": "SE559575854001",
     "openingHours": "",
     "social": {
       "facebook": "",
@@ -92,9 +92,8 @@
     "barLinks": {
       "order": [
         "tjanster",
-        "uppdrag",
+        "aret-runt",
         "om-oss",
-        "certifikat",
         "kontakt"
       ],
       "items": {
@@ -102,17 +101,13 @@
           "label": "Tjänster",
           "href": "/#tjanster"
         },
-        "uppdrag": {
-          "label": "Uppdrag",
-          "href": "/projekt"
+        "aret-runt": {
+          "label": "Året runt",
+          "href": "/aret-runt"
         },
         "om-oss": {
           "label": "Om oss",
           "href": "/om-oss"
-        },
-        "certifikat": {
-          "label": "Certifikat",
-          "href": "/certifikat"
         },
         "kontakt": {
           "label": "Kontakt",
@@ -124,9 +119,8 @@
       "order": [
         "hem",
         "tjanster",
-        "uppdrag",
+        "aret-runt",
         "om-oss",
-        "certifikat",
         "kontakt"
       ],
       "items": {
@@ -140,19 +134,14 @@
           "href": "/#tjanster",
           "kind": "services"
         },
-        "uppdrag": {
-          "label": "Uppdrag",
-          "href": "/projekt",
+        "aret-runt": {
+          "label": "Året runt",
+          "href": "/aret-runt",
           "kind": "link"
         },
         "om-oss": {
           "label": "Om oss",
           "href": "/om-oss",
-          "kind": "link"
-        },
-        "certifikat": {
-          "label": "Certifikat",
-          "href": "/certifikat",
           "kind": "link"
         },
         "kontakt": {
@@ -167,12 +156,11 @@
   "footer": {
     "contactHeading": "Kontakt",
     "servicesHeading": "Tjänster",
-    "companyHeading": "Markmontage",
+    "companyHeading": "Stenvaller",
     "companyLinks": {
       "order": [
         "om-oss",
-        "certifikat",
-        "uppdrag",
+        "aret-runt",
         "process",
         "faq",
         "kontakt"
@@ -182,13 +170,9 @@
           "label": "Om oss",
           "href": "/om-oss"
         },
-        "certifikat": {
-          "label": "Certifikat",
-          "href": "/certifikat"
-        },
-        "uppdrag": {
-          "label": "Uppdrag",
-          "href": "/projekt"
+        "aret-runt": {
+          "label": "Året runt",
+          "href": "/aret-runt"
         },
         "process": {
           "label": "Så går det till",
@@ -208,7 +192,7 @@
       "label": "Begär offert",
       "href": "#offert"
     },
-    "copyrightName": "Markmontage BEAB AB",
+    "copyrightName": "Stenvaller Entreprenad AB",
     "orgLabel": "Org.nr",
     "vatLabel": "Momsreg.nr"
   },
@@ -222,35 +206,43 @@
       "description": "Kort beskrivning"
     },
     "workTypePlaceholder": "Välj typ av arbete",
-    "descriptionPlaceholder": "Berätta kort om ditt projekt…",
+    "descriptionPlaceholder": "Berätta kort vad du behöver hjälp med…",
     "workTypes": {
       "order": [
-        "schaktning-markarbeten",
-        "dranering",
-        "grundlaggning",
-        "va-arbeten",
-        "anlaggning-vagar-planer",
-        "stenlaggning",
+        "fastighetsskotsel",
+        "gronyteskotsel",
+        "rojning",
+        "markskotsel",
+        "snorojning",
+        "renhallning",
+        "maskinservice",
+        "serviceavtal",
         "annat"
       ],
       "items": {
-        "schaktning-markarbeten": {
-          "label": "Schaktning & markarbeten"
+        "fastighetsskotsel": {
+          "label": "Fastighetsskötsel & fastighetsservice"
         },
-        "dranering": {
-          "label": "Dränering"
+        "gronyteskotsel": {
+          "label": "Grönyteskötsel & trädgård"
         },
-        "grundlaggning": {
-          "label": "Grundläggning"
+        "rojning": {
+          "label": "Röjning"
         },
-        "va-arbeten": {
-          "label": "VA-arbeten"
+        "markskotsel": {
+          "label": "Markskötsel & enklare markarbeten"
         },
-        "anlaggning-vagar-planer": {
-          "label": "Anläggning av vägar & planer"
+        "snorojning": {
+          "label": "Snöröjning & vinterunderhåll"
         },
-        "stenlaggning": {
-          "label": "Stenläggning & plattläggning"
+        "renhallning": {
+          "label": "Renhållning & utemiljö"
+        },
+        "maskinservice": {
+          "label": "Reparation & underhåll av maskiner"
+        },
+        "serviceavtal": {
+          "label": "Löpande serviceavtal"
         },
         "annat": {
           "label": "Annat"
@@ -281,13 +273,13 @@
     "mainMenuLabel": "Huvudmeny",
     "quickLinksLabel": "Snabblänkar",
     "callPrefix": "Ring",
-    "homeLinkLabel": "Markmontage BEAB AB – startsida",
+    "homeLinkLabel": "Stenvaller Entreprenad AB – startsida",
     "breadcrumbsLabel": "Brödsmulor",
     "breadcrumbHome": "Hem",
-    "carouselPrevious": "Föregående uppdrag",
-    "carouselNext": "Nästa uppdrag",
+    "carouselPrevious": "Föregående",
+    "carouselNext": "Nästa",
     "carouselGoTo": "Gå till position {n} av {total}",
-    "uppdragFilterLabel": "Filtrera uppdrag",
+    "uppdragFilterLabel": "Filtrera efter årstid",
     "stepPrefix": "Steg",
     "mapTitlePrefix": "Karta:",
     "closeLabel": "Stäng",
@@ -300,8 +292,8 @@
   "servicePage": {
     "badge": "Tjänst",
     "cta": {
-      "heading": "Har du ett markprojekt på gång?",
-      "text": "Kontakta oss för ett kostnadsfritt hembesök, så går vi igenom förutsättningarna tillsammans.",
+      "heading": "Behöver du hjälp med fastighet eller utemiljö?",
+      "text": "Berätta vad du behöver hjälp med, så återkommer vi med nästa steg.",
       "button": {
         "label": "Begär offert",
         "href": "#offert"
@@ -315,7 +307,7 @@
       "area": "Område",
       "org": "Org.nr"
     },
-    "contactTagline": "Mark- och grundarbeten sedan 2002",
+    "contactTagline": "Fastighet, mark och utemiljö året runt",
     "contactButton": {
       "label": "Begär offert",
       "href": "#offert"
@@ -340,435 +332,559 @@
   },
   "services": {
     "order": [
-      "schaktning-markarbeten",
-      "dranering",
-      "grundlaggning",
-      "va-arbeten",
-      "anlaggning-vagar-planer",
-      "stenlaggning",
-      "totalentreprenad"
+      "fastighetsskotsel",
+      "gronyteskotsel",
+      "rojning",
+      "markskotsel",
+      "snorojning",
+      "renhallning",
+      "maskinservice"
     ],
     "items": {
-      "schaktning-markarbeten": {
-        "slug": "schaktning-markarbeten",
-        "name": "Schaktning & markarbeten",
-        "shortDescription": "Schaktning och markarbeten som förbereder tomten inför bygget, anpassade efter markförhållandena.",
+      "fastighetsskotsel": {
+        "slug": "fastighetsskotsel",
+        "name": "Fastighetsskötsel & fastighetsservice",
+        "shortDescription": "Löpande skötsel och underhåll av fastigheter, som återkommande service eller vid enstaka tillfällen.",
         "description": [
-          "Ett bygge börjar alltid under mark, och ett väl förberett underlag avgör hur resten av projektet går. Markmontage BEAB AB utför schaktning och markarbeten i Kungälv, Göteborg och övriga Västra Götaland, både som en del av större entreprenader och som fristående uppdrag.",
-          "Vi hanterar schaktning för grund, ledningar och anslutningar, samt terrassering och iordningställande av tomtmark inför fortsatt byggnation. Varje uppdrag anpassas efter markförhållandena på plats, från lera och berg till mer lättarbetad mark.",
-          "Som totalentreprenör kan vi samordna schaktningen med efterföljande moment som grundläggning och VA-arbeten, så att projektet flyter på utan onödiga avbrott mellan olika entreprenörer.",
-          "Kontakta oss för en kostnadsfri offert, så tittar vi tillsammans på förutsättningarna för just din tomt."
+          "En fastighet behöver skötas hela året, både inomhus och runt huset. Stenvaller Entreprenad AB utför fastighetsskötsel och fastighetsservice i Stenungsund med omnejd.",
+          "Arbetet omfattar löpande underhåll och de praktiska uppgifter som hör till en fastighet och dess omgivning. Vi kan också hyra ut personal för arbeten inom fastighetsservice när ni behöver förstärkning under en period.",
+          "Uppdraget kan vara ett enstaka jobb eller återkommande service, där samma kontakt hjälper till med fastighetens olika behov under året.",
+          "Hör av dig och berätta vad fastigheten behöver, så återkommer vi med ett förslag."
+        ],
+        "icon": "Building2",
+        "image": {
+          "src": "/photos/stenvaller-fastighet.webp",
+          "variants": [
+            {
+              "width": 480,
+              "src": "/photos/stenvaller-fastighet-480.webp"
+            },
+            {
+              "width": 800,
+              "src": "/photos/stenvaller-fastighet-800.webp"
+            },
+            {
+              "width": 1200,
+              "src": "/photos/stenvaller-fastighet-1200.webp"
+            },
+            {
+              "width": 1600,
+              "src": "/photos/stenvaller-fastighet.webp"
+            }
+          ],
+          "alt": ""
+        },
+        "seo": {
+          "title": "Fastighetsskötsel & fastighetsservice i Stenungsund",
+          "description": "Löpande skötsel och underhåll av fastigheter, som återkommande service eller vid enstaka tillfällen."
+        }
+      },
+      "gronyteskotsel": {
+        "slug": "gronyteskotsel",
+        "name": "Grönyteskötsel & trädgård",
+        "shortDescription": "Gräsklippning, grönyteskötsel och trädgårdsarbete för fastigheter, föreningar och privatpersoner.",
+        "description": [
+          "Välskötta grönytor gör stor skillnad för hur en fastighet upplevs. Stenvaller Entreprenad AB sköter gräsmattor, grönytor och trädgårdar i Stenungsund med omnejd.",
+          "Under vår och sommar handlar det om gräsklippning, skötsel av rabatter och planteringar och annat trädgårdsarbete som håller utemiljön i ordning.",
+          "Skötseln kan läggas upp som återkommande service under säsongen eller beställas vid enstaka tillfällen.",
+          "Hör av dig och berätta om ytorna, så återkommer vi med ett förslag."
+        ],
+        "icon": "Leaf",
+        "image": {
+          "src": "/photos/stenvaller-gronyta.webp",
+          "variants": [
+            {
+              "width": 480,
+              "src": "/photos/stenvaller-gronyta-480.webp"
+            },
+            {
+              "width": 800,
+              "src": "/photos/stenvaller-gronyta-800.webp"
+            },
+            {
+              "width": 1200,
+              "src": "/photos/stenvaller-gronyta-1200.webp"
+            },
+            {
+              "width": 1600,
+              "src": "/photos/stenvaller-gronyta.webp"
+            }
+          ],
+          "alt": ""
+        },
+        "seo": {
+          "title": "Grönyteskötsel & gräsklippning i Stenungsund",
+          "description": "Gräsklippning, grönyteskötsel och trädgårdsarbete för fastigheter, föreningar och privatpersoner."
+        }
+      },
+      "rojning": {
+        "slug": "rojning",
+        "name": "Röjning",
+        "shortDescription": "Röjning av sly, buskar och igenvuxna ytor, och lövhantering på hösten.",
+        "description": [
+          "Ytor som växer igen blir snabbt svåra att använda och sköta. Stenvaller Entreprenad AB utför röjning i Stenungsund med omnejd.",
+          "Vi röjer sly, buskage och igenvuxna partier runt fastigheter, längs gångvägar och på tomter och markområden. På hösten tar vi också hand om lövhantering.",
+          "Röjning kan göras som ett enstaka uppdrag eller ingå i den löpande skötseln av fastigheten.",
+          "Hör av dig och beskriv ytan, så återkommer vi med nästa steg."
+        ],
+        "icon": "TreePine",
+        "image": {
+          "src": "/photos/stenvaller-rojning.webp",
+          "variants": [
+            {
+              "width": 480,
+              "src": "/photos/stenvaller-rojning-480.webp"
+            },
+            {
+              "width": 800,
+              "src": "/photos/stenvaller-rojning-800.webp"
+            },
+            {
+              "width": 1200,
+              "src": "/photos/stenvaller-rojning-1200.webp"
+            },
+            {
+              "width": 1600,
+              "src": "/photos/stenvaller-rojning.webp"
+            }
+          ],
+          "alt": ""
+        },
+        "seo": {
+          "title": "Röjning i Stenungsund",
+          "description": "Röjning av sly, buskar och igenvuxna ytor, och lövhantering på hösten."
+        }
+      },
+      "markskotsel": {
+        "slug": "markskotsel",
+        "name": "Markskötsel & enklare markarbeten",
+        "shortDescription": "Skötsel av mark och gångvägar, och mindre markarbeten runt fastigheter och tomter.",
+        "description": [
+          "Mark, gångvägar och ytor runt en fastighet behöver underhållas för att hålla sig fina och säkra att använda. Stenvaller Entreprenad AB utför markskötsel och enklare markarbeten i Stenungsund med omnejd.",
+          "Vi sköter och underhåller gångvägar och markytor och utför mindre markarbeten i anslutning till fastigheter och tomter.",
+          "Vi är inriktade på skötsel och service av mark och utemiljöer snarare än stora markentreprenader. Berätta vad du har på gång, så säger vi om det är något vi kan hjälpa till med."
         ],
         "icon": "Shovel",
         "image": {
-          "src": "/photos/markmontage-minigravare.webp",
+          "src": "/photos/stenvaller-mark.webp",
           "variants": [
             {
               "width": 480,
-              "src": "/photos/markmontage-minigravare-480.webp"
+              "src": "/photos/stenvaller-mark-480.webp"
             },
             {
               "width": 800,
-              "src": "/photos/markmontage-minigravare-800.webp"
+              "src": "/photos/stenvaller-mark-800.webp"
             },
             {
               "width": 1200,
-              "src": "/photos/markmontage-minigravare-1200.webp"
-            },
-            {
-              "width": 1500,
-              "src": "/photos/markmontage-minigravare.webp"
-            }
-          ],
-          "alt": ""
-        },
-        "seo": {
-          "title": "Schaktning & markarbeten i Kungälv",
-          "description": "Schaktning och markarbeten som förbereder tomten inför bygget, anpassade efter markförhållandena."
-        }
-      },
-      "dranering": {
-        "slug": "dranering",
-        "name": "Dränering",
-        "shortDescription": "Dränering som skyddar grunden mot fukt och sättningsskador, utförd enligt branschens riktlinjer.",
-        "description": [
-          "Bristfällig dränering är en av de vanligaste orsakerna till fukt- och sättningsskador i äldre hus. Markmontage BEAB AB utför dränering i Kungälv, Göteborg och övriga Västra Götaland, både vid nybyggnation och som åtgärd vid befintliga fuktproblem.",
-          "Arbetet omfattar schaktning runt grunden, ny dränering och fuktskydd, samt återfyllning och iordningställande av marken efteråt. Vi lägger stor vikt vid att dräneringen leder bort vatten på rätt sätt, anpassat efter husets grundläggning och markens lutning.",
-          "Dränering vid en befintlig bostad ger i många fall rätt till rotavdrag för arbetskostnaden – vi berättar gärna vad som gäller för just ditt hus.",
-          "Kontakta oss för ett kostnadsfritt hembesök, så gör vi en bedömning av dräneringen vid din fastighet."
-        ],
-        "icon": "Droplets",
-        "image": {
-          "src": "https://images.pexels.com/photos/9389356/pexels-photo-9389356.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          "variants": [
-            {
-              "width": 480,
-              "src": "https://images.pexels.com/photos/9389356/pexels-photo-9389356.jpeg?auto=compress&cs=tinysrgb&w=480"
-            },
-            {
-              "width": 800,
-              "src": "https://images.pexels.com/photos/9389356/pexels-photo-9389356.jpeg?auto=compress&cs=tinysrgb&w=800"
-            },
-            {
-              "width": 1200,
-              "src": "https://images.pexels.com/photos/9389356/pexels-photo-9389356.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              "src": "/photos/stenvaller-mark-1200.webp"
             },
             {
               "width": 1600,
-              "src": "https://images.pexels.com/photos/9389356/pexels-photo-9389356.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              "src": "/photos/stenvaller-mark.webp"
             }
           ],
           "alt": ""
         },
         "seo": {
-          "title": "Dränering i Kungälv",
-          "description": "Dränering som skyddar grunden mot fukt och sättningsskador, utförd enligt branschens riktlinjer."
+          "title": "Markskötsel & enklare markarbeten i Stenungsund",
+          "description": "Skötsel av mark och gångvägar, och mindre markarbeten runt fastigheter och tomter."
         }
       },
-      "grundlaggning": {
-        "slug": "grundlaggning",
-        "name": "Grundläggning",
-        "shortDescription": "Grundläggning för nybyggnation och tillbyggnad, anpassad efter markens bärighet.",
+      "snorojning": {
+        "slug": "snorojning",
+        "name": "Snöröjning & vinterunderhåll",
+        "shortDescription": "Snöröjning, skötsel av gångvägar och vinterunderhåll för fastigheter och markområden.",
         "description": [
-          "Grunden bär hela byggnaden, och felaktigt utförd grundläggning är svår och kostsam att åtgärda i efterhand. Markmontage BEAB AB utför grundläggning i Kungälv, Göteborg och övriga Västra Götaland, vid såväl nybyggnation som tillbyggnad.",
-          "Vi utför bland annat gjutning av platta på mark, grundsulor och källargrunder, alltid anpassat efter markens bärighet och grundvattenförhållandena på platsen. Markisolering och fuktskydd ingår som en naturlig del av arbetet.",
-          "Tack vare vår erfarenhet av mark- och grundarbeten vet vi vad som krävs för en grund som håller över tid. Vid behov samordnar vi arbetet med övriga entreprenörer i projektet.",
-          "Hör av dig för en kostnadsfri offert, så berättar vi mer om vad som gäller för grundläggningen på just din tomt."
+          "När snön kommer behöver infarter, gångvägar och ytor runt fastigheten hållas framkomliga. Stenvaller Entreprenad AB utför snöröjning och vinterunderhåll i Stenungsund med omnejd.",
+          "Arbetet omfattar snöröjning, skötsel av gångvägar och annat vinterunderhåll. Under hösten hjälper vi också till med förberedelserna inför vintersäsongen.",
+          "Vinterunderhåll passar bra som en del av ett löpande serviceavtal, så att fastigheten är omhändertagen även under den kalla delen av året.",
+          "Hör av dig i god tid inför vintern, så går vi igenom vad som behövs."
         ],
-        "icon": "Layers",
+        "icon": "Snowflake",
         "image": {
-          "src": "/photos/markmontage-stalstomme.webp",
+          "src": "/photos/stenvaller-vinter.webp",
           "variants": [
             {
               "width": 480,
-              "src": "/photos/markmontage-stalstomme-480.webp"
+              "src": "/photos/stenvaller-vinter-480.webp"
             },
             {
               "width": 800,
-              "src": "/photos/markmontage-stalstomme-800.webp"
-            },
-            {
-              "width": 1125,
-              "src": "/photos/markmontage-stalstomme.webp"
-            }
-          ],
-          "alt": ""
-        },
-        "seo": {
-          "title": "Grundläggning i Kungälv",
-          "description": "Grundläggning för nybyggnation och tillbyggnad, anpassad efter markens bärighet."
-        }
-      },
-      "va-arbeten": {
-        "slug": "va-arbeten",
-        "name": "VA-arbeten",
-        "shortDescription": "Vatten- och avloppsarbeten – ledningar på den egna tomten och anslutning till det kommunala nätet.",
-        "description": [
-          "Vatten- och avloppsarbeten kräver både rätt kompetens och rätt tillstånd, eftersom felaktigt utförda VA-installationer kan bli kostsamma att åtgärda. Markmontage BEAB AB utför VA-arbeten i Kungälv, Göteborg och övriga Västra Götaland.",
-          "Vi lägger och byter ledningar för vatten, spillvatten och dagvatten, samt utför anslutningar till kommunalt VA-nät eller enskilda avloppsanläggningar. Arbetet utförs enligt gällande branschregler för VA-installationer.",
-          "Som totalentreprenör kan vi samordna VA-arbetet med schaktning och återställning av marken, så att du slipper hålla ihop flera separata entreprenörer.",
-          "Kontakta oss för en kostnadsfri offert på VA-arbetet vid din fastighet."
-        ],
-        "icon": "Waves",
-        "image": {
-          "src": "/photos/markmontage-gravmaskin-ror.webp",
-          "variants": [
-            {
-              "width": 480,
-              "src": "/photos/markmontage-gravmaskin-ror-480.webp"
-            },
-            {
-              "width": 800,
-              "src": "/photos/markmontage-gravmaskin-ror-800.webp"
+              "src": "/photos/stenvaller-vinter-800.webp"
             },
             {
               "width": 1200,
-              "src": "/photos/markmontage-gravmaskin-ror-1200.webp"
-            },
-            {
-              "width": 1500,
-              "src": "/photos/markmontage-gravmaskin-ror.webp"
-            }
-          ],
-          "alt": ""
-        },
-        "seo": {
-          "title": "VA-arbeten i Kungälv",
-          "description": "Vatten- och avloppsarbeten – ledningar på den egna tomten och anslutning till det kommunala nätet."
-        }
-      },
-      "anlaggning-vagar-planer": {
-        "slug": "anlaggning-vagar-planer",
-        "name": "Anläggning av vägar & planer",
-        "shortDescription": "Anläggning av vägar, uppfarter och asfalterade eller grusade ytor med hållbar bärighet.",
-        "description": [
-          "En väl anlagd väg eller uppställningsyta kräver rätt uppbyggnad i flera lager för att hålla över tid, oavsett belastning och väderlek. Markmontage BEAB AB utför anläggning av vägar och planer i Kungälv, Göteborg och övriga Västra Götaland.",
-          "Vi anlägger uppfarter, parkeringsytor och interna vägar, med förstärkningslager anpassade efter markens bärighet och den tänkta belastningen. Ytorna kan färdigställas med allt från grus till asfalt beroende på behov.",
-          "Rätt dränering och lutning i uppbyggnaden är avgörande för att undvika vattenansamling och tjälskador, något vi planerar för redan i markarbetet.",
-          "Hör av dig för en kostnadsfri offert, så går vi igenom vad som passar bäst för just din yta."
-        ],
-        "icon": "Route",
-        "image": {
-          "src": "https://images.pexels.com/photos/19394246/pexels-photo-19394246.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          "variants": [
-            {
-              "width": 480,
-              "src": "https://images.pexels.com/photos/19394246/pexels-photo-19394246.jpeg?auto=compress&cs=tinysrgb&w=480"
-            },
-            {
-              "width": 800,
-              "src": "https://images.pexels.com/photos/19394246/pexels-photo-19394246.jpeg?auto=compress&cs=tinysrgb&w=800"
-            },
-            {
-              "width": 1200,
-              "src": "https://images.pexels.com/photos/19394246/pexels-photo-19394246.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              "src": "/photos/stenvaller-vinter-1200.webp"
             },
             {
               "width": 1600,
-              "src": "https://images.pexels.com/photos/19394246/pexels-photo-19394246.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              "src": "/photos/stenvaller-vinter.webp"
             }
           ],
           "alt": ""
         },
         "seo": {
-          "title": "Anläggning av vägar & planer i Kungälv",
-          "description": "Anläggning av vägar, uppfarter och asfalterade eller grusade ytor med hållbar bärighet."
+          "title": "Snöröjning & vinterunderhåll i Stenungsund",
+          "description": "Snöröjning, skötsel av gångvägar och vinterunderhåll för fastigheter och markområden."
         }
       },
-      "stenlaggning": {
-        "slug": "stenlaggning",
-        "name": "Stenläggning & plattläggning",
-        "shortDescription": "Stenläggning och plattläggning utomhus med stabilt underlag för gångar, uteplatser och infarter.",
+      "renhallning": {
+        "slug": "renhallning",
+        "name": "Renhållning & utemiljö",
+        "shortDescription": "Renhållning och skötsel av utemiljöer, så att gårdar, entréer och ytor runt fastigheten hålls i ordning.",
         "description": [
-          "En hållbar stenläggning avgörs av underarbetet minst lika mycket som av själva stenen eller plattan. Markmontage BEAB AB utför stenläggning och plattläggning utomhus i Kungälv, Göteborg och övriga Västra Götaland.",
-          "Vi bygger upp bärlager och sättsand enligt branschens riktlinjer inför läggning av marksten, plattor eller kantsten till gångar, uteplatser och infarter, så att ytan ligger stabilt och jämnt även efter flera års användning.",
-          "Vid behov kombinerar vi stenläggningen med dränering under ytan för att leda bort vatten och minska risken för sättningar och ogräs i fogarna.",
-          "Kontakta oss för en kostnadsfri offert på stenläggningen vid din fastighet."
+          "En prydlig utemiljö är det första besökare och boende möter. Stenvaller Entreprenad AB utför renhållning och skötsel av utemiljöer i Stenungsund med omnejd.",
+          "Vi håller gårdar, entréer, gångar och andra ytor runt fastigheten rena och i ordning, året runt.",
+          "Renhållningen kan ske regelbundet som en del av den löpande skötseln eller beställas vid enstaka tillfällen.",
+          "Hör av dig och berätta vad som behöver göras, så återkommer vi."
         ],
-        "icon": "LayoutGrid",
+        "icon": "Sparkles",
         "image": {
-          "src": "https://images.pexels.com/photos/6083/pexels-photo-6083.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "src": "/photos/stenvaller-renhallning.webp",
           "variants": [
             {
               "width": 480,
-              "src": "https://images.pexels.com/photos/6083/pexels-photo-6083.jpeg?auto=compress&cs=tinysrgb&w=480"
+              "src": "/photos/stenvaller-renhallning-480.webp"
             },
             {
               "width": 800,
-              "src": "https://images.pexels.com/photos/6083/pexels-photo-6083.jpeg?auto=compress&cs=tinysrgb&w=800"
+              "src": "/photos/stenvaller-renhallning-800.webp"
             },
             {
               "width": 1200,
-              "src": "https://images.pexels.com/photos/6083/pexels-photo-6083.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              "src": "/photos/stenvaller-renhallning-1200.webp"
             },
             {
               "width": 1600,
-              "src": "https://images.pexels.com/photos/6083/pexels-photo-6083.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              "src": "/photos/stenvaller-renhallning.webp"
             }
           ],
           "alt": ""
         },
         "seo": {
-          "title": "Stenläggning & plattläggning i Kungälv",
-          "description": "Stenläggning och plattläggning utomhus med stabilt underlag för gångar, uteplatser och infarter."
+          "title": "Renhållning & skötsel av utemiljö i Stenungsund",
+          "description": "Renhållning och skötsel av utemiljöer, så att gårdar, entréer och ytor runt fastigheten hålls i ordning."
         }
       },
-      "totalentreprenad": {
-        "slug": "totalentreprenad",
-        "name": "Totalentreprenad",
-        "shortDescription": "Totalentreprenad där vi tar helhetsansvar för mark- och grundarbetet från start till avslut.",
+      "maskinservice": {
+        "slug": "maskinservice",
+        "name": "Reparation & underhåll av maskiner",
+        "shortDescription": "Verkstadsrelaterade tjänster: reparation och underhåll av maskiner.",
         "description": [
-          "På större projekt är det ofta en fördel att samla mark- och grundarbetet hos en och samma entreprenör. Markmontage BEAB AB åtar sig totalentreprenader inom mark- och grundarbeten i Kungälv, Göteborg och övriga Västra Götaland.",
-          "Som totalentreprenör tar vi helhetsansvaret för projektet – från schaktning och dränering till grundläggning, VA-arbeten och färdigställande av mark – och samordnar de moment som krävs för att arbetet ska flyta på utan onödiga förseningar.",
-          "Du får en kontaktperson genom hela projektet och en tydlig tidsplan, istället för att själv behöva samordna flera olika entreprenörer.",
-          "Kontakta oss för en kostnadsfri offert, så berättar vi mer om hur en totalentreprenad kan se ut för just ditt projekt."
+          "Maskiner behöver underhållas för att fungera när de behövs. Stenvaller Entreprenad AB utför reparation och underhåll av maskiner.",
+          "Beskriv maskinen och vad som behöver göras, så återkommer vi med besked om hur vi kan hjälpa till."
         ],
-        "icon": "HardHat",
+        "icon": "Wrench",
         "image": {
-          "src": "/photos/markmontage-vagarbete.webp",
+          "src": "/photos/stenvaller-maskin.webp",
           "variants": [
             {
               "width": 480,
-              "src": "/photos/markmontage-vagarbete-480.webp"
+              "src": "/photos/stenvaller-maskin-480.webp"
             },
             {
               "width": 800,
-              "src": "/photos/markmontage-vagarbete-800.webp"
+              "src": "/photos/stenvaller-maskin-800.webp"
             },
             {
-              "width": 1170,
-              "src": "/photos/markmontage-vagarbete.webp"
+              "width": 1200,
+              "src": "/photos/stenvaller-maskin-1200.webp"
+            },
+            {
+              "width": 1600,
+              "src": "/photos/stenvaller-maskin.webp"
             }
           ],
-          "alt": "",
-          "focus": "28% 50%"
+          "alt": ""
         },
         "seo": {
-          "title": "Totalentreprenad i Kungälv",
-          "description": "Totalentreprenad där vi tar helhetsansvar för mark- och grundarbetet från start till avslut."
+          "title": "Reparation & underhåll av maskiner i Stenungsund",
+          "description": "Verkstadsrelaterade tjänster: reparation och underhåll av maskiner."
         }
       }
     }
   },
   "uppdrag": {
     "order": [
-      "schakt",
-      "grund",
-      "dagvatten",
-      "vagar",
-      "marksten",
-      "helhet"
+      "grasklippning",
+      "tradgard",
+      "lov",
+      "infor-vintern",
+      "snorojning",
+      "gangvagar",
+      "fastighetsservice",
+      "markarbeten",
+      "renhallning",
+      "maskiner"
     ],
     "items": {
-      "schakt": {
-        "tag": "Markarbeten",
-        "title": "Schakt och massförflyttning",
-        "href": "/tjanster/schaktning-markarbeten",
+      "grasklippning": {
+        "tag": "Vår & sommar",
+        "title": "Gräsklippning och grönyteskötsel",
+        "href": "/tjanster/gronyteskotsel",
         "image": {
-          "src": "/photos/markmontage-minigravare-grasmatta.webp",
+          "src": "/photos/stenvaller-gronyta.webp",
           "variants": [
             {
               "width": 480,
-              "src": "/photos/markmontage-minigravare-grasmatta-480.webp"
+              "src": "/photos/stenvaller-gronyta-480.webp"
             },
             {
-              "width": 720,
-              "src": "/photos/markmontage-minigravare-grasmatta.webp"
+              "width": 800,
+              "src": "/photos/stenvaller-gronyta-800.webp"
+            },
+            {
+              "width": 1200,
+              "src": "/photos/stenvaller-gronyta-1200.webp"
+            },
+            {
+              "width": 1600,
+              "src": "/photos/stenvaller-gronyta.webp"
             }
           ],
           "alt": ""
         }
       },
-      "grund": {
-        "tag": "Grund & dränering",
-        "title": "Platta på mark och grundsulor",
-        "href": "/tjanster/grundlaggning",
+      "tradgard": {
+        "tag": "Vår & sommar",
+        "title": "Trädgårdsarbete och skötsel av utemiljö",
+        "href": "/tjanster/gronyteskotsel",
         "image": {
-          "src": "https://images.pexels.com/photos/17410739/pexels-photo-17410739.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "src": "/photos/stenvaller-utemiljo.webp",
           "variants": [
             {
               "width": 480,
-              "src": "https://images.pexels.com/photos/17410739/pexels-photo-17410739.jpeg?auto=compress&cs=tinysrgb&w=480"
+              "src": "/photos/stenvaller-utemiljo-480.webp"
             },
             {
               "width": 800,
-              "src": "https://images.pexels.com/photos/17410739/pexels-photo-17410739.jpeg?auto=compress&cs=tinysrgb&w=800"
+              "src": "/photos/stenvaller-utemiljo-800.webp"
             },
             {
               "width": 1200,
-              "src": "https://images.pexels.com/photos/17410739/pexels-photo-17410739.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              "src": "/photos/stenvaller-utemiljo-1200.webp"
             },
             {
               "width": 1600,
-              "src": "https://images.pexels.com/photos/17410739/pexels-photo-17410739.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              "src": "/photos/stenvaller-utemiljo.webp"
             }
           ],
           "alt": ""
         }
       },
-      "dagvatten": {
-        "tag": "Grund & dränering",
-        "title": "Dagvatten och fuktskydd",
-        "href": "/tjanster/dranering",
+      "lov": {
+        "tag": "Höst",
+        "title": "Lövhantering och röjning",
+        "href": "/tjanster/rojning",
         "image": {
-          "src": "https://images.pexels.com/photos/3964564/pexels-photo-3964564.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "src": "/photos/stenvaller-host.webp",
           "variants": [
             {
               "width": 480,
-              "src": "https://images.pexels.com/photos/3964564/pexels-photo-3964564.jpeg?auto=compress&cs=tinysrgb&w=480"
+              "src": "/photos/stenvaller-host-480.webp"
             },
             {
               "width": 800,
-              "src": "https://images.pexels.com/photos/3964564/pexels-photo-3964564.jpeg?auto=compress&cs=tinysrgb&w=800"
+              "src": "/photos/stenvaller-host-800.webp"
             },
             {
               "width": 1200,
-              "src": "https://images.pexels.com/photos/3964564/pexels-photo-3964564.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              "src": "/photos/stenvaller-host-1200.webp"
             },
             {
               "width": 1600,
-              "src": "https://images.pexels.com/photos/3964564/pexels-photo-3964564.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              "src": "/photos/stenvaller-host.webp"
             }
           ],
           "alt": ""
         }
       },
-      "vagar": {
-        "tag": "Markarbeten",
-        "title": "Vägar, planer och uppfarter",
-        "href": "/tjanster/anlaggning-vagar-planer",
+      "infor-vintern": {
+        "tag": "Höst",
+        "title": "Förberedelser inför vintersäsongen",
+        "href": "/tjanster/snorojning",
         "image": {
-          "src": "https://images.pexels.com/photos/1188532/pexels-photo-1188532.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "src": "/photos/stenvaller-host.webp",
           "variants": [
             {
               "width": 480,
-              "src": "https://images.pexels.com/photos/1188532/pexels-photo-1188532.jpeg?auto=compress&cs=tinysrgb&w=480"
+              "src": "/photos/stenvaller-host-480.webp"
             },
             {
               "width": 800,
-              "src": "https://images.pexels.com/photos/1188532/pexels-photo-1188532.jpeg?auto=compress&cs=tinysrgb&w=800"
+              "src": "/photos/stenvaller-host-800.webp"
             },
             {
               "width": 1200,
-              "src": "https://images.pexels.com/photos/1188532/pexels-photo-1188532.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              "src": "/photos/stenvaller-host-1200.webp"
             },
             {
               "width": 1600,
-              "src": "https://images.pexels.com/photos/1188532/pexels-photo-1188532.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              "src": "/photos/stenvaller-host.webp"
             }
           ],
           "alt": ""
         }
       },
-      "marksten": {
-        "tag": "Markarbeten",
-        "title": "Marksten och kantsten",
-        "href": "/tjanster/stenlaggning",
+      "snorojning": {
+        "tag": "Vinter",
+        "title": "Snöröjning",
+        "href": "/tjanster/snorojning",
         "image": {
-          "src": "https://images.pexels.com/photos/214045/pexels-photo-214045.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "src": "/photos/stenvaller-vinter.webp",
           "variants": [
             {
               "width": 480,
-              "src": "https://images.pexels.com/photos/214045/pexels-photo-214045.jpeg?auto=compress&cs=tinysrgb&w=480"
+              "src": "/photos/stenvaller-vinter-480.webp"
             },
             {
               "width": 800,
-              "src": "https://images.pexels.com/photos/214045/pexels-photo-214045.jpeg?auto=compress&cs=tinysrgb&w=800"
+              "src": "/photos/stenvaller-vinter-800.webp"
             },
             {
               "width": 1200,
-              "src": "https://images.pexels.com/photos/214045/pexels-photo-214045.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              "src": "/photos/stenvaller-vinter-1200.webp"
             },
             {
               "width": 1600,
-              "src": "https://images.pexels.com/photos/214045/pexels-photo-214045.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              "src": "/photos/stenvaller-vinter.webp"
             }
           ],
           "alt": ""
         }
       },
-      "helhet": {
-        "tag": "Totalentreprenad",
-        "title": "Helhetsansvar för markprojektet",
-        "href": "/tjanster/totalentreprenad",
+      "gangvagar": {
+        "tag": "Vinter",
+        "title": "Skötsel av gångvägar och vinterunderhåll",
+        "href": "/tjanster/snorojning",
         "image": {
-          "src": "https://images.pexels.com/photos/30223853/pexels-photo-30223853.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "src": "/photos/stenvaller-vinter.webp",
           "variants": [
             {
               "width": 480,
-              "src": "https://images.pexels.com/photos/30223853/pexels-photo-30223853.jpeg?auto=compress&cs=tinysrgb&w=480"
+              "src": "/photos/stenvaller-vinter-480.webp"
             },
             {
               "width": 800,
-              "src": "https://images.pexels.com/photos/30223853/pexels-photo-30223853.jpeg?auto=compress&cs=tinysrgb&w=800"
+              "src": "/photos/stenvaller-vinter-800.webp"
             },
             {
               "width": 1200,
-              "src": "https://images.pexels.com/photos/30223853/pexels-photo-30223853.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              "src": "/photos/stenvaller-vinter-1200.webp"
             },
             {
               "width": 1600,
-              "src": "https://images.pexels.com/photos/30223853/pexels-photo-30223853.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              "src": "/photos/stenvaller-vinter.webp"
+            }
+          ],
+          "alt": ""
+        }
+      },
+      "fastighetsservice": {
+        "tag": "Året runt",
+        "title": "Fastighetsservice och löpande underhåll",
+        "href": "/tjanster/fastighetsskotsel",
+        "image": {
+          "src": "/photos/stenvaller-fastighet.webp",
+          "variants": [
+            {
+              "width": 480,
+              "src": "/photos/stenvaller-fastighet-480.webp"
+            },
+            {
+              "width": 800,
+              "src": "/photos/stenvaller-fastighet-800.webp"
+            },
+            {
+              "width": 1200,
+              "src": "/photos/stenvaller-fastighet-1200.webp"
+            },
+            {
+              "width": 1600,
+              "src": "/photos/stenvaller-fastighet.webp"
+            }
+          ],
+          "alt": ""
+        }
+      },
+      "markarbeten": {
+        "tag": "Året runt",
+        "title": "Mindre markarbeten och markskötsel",
+        "href": "/tjanster/markskotsel",
+        "image": {
+          "src": "/photos/stenvaller-mark.webp",
+          "variants": [
+            {
+              "width": 480,
+              "src": "/photos/stenvaller-mark-480.webp"
+            },
+            {
+              "width": 800,
+              "src": "/photos/stenvaller-mark-800.webp"
+            },
+            {
+              "width": 1200,
+              "src": "/photos/stenvaller-mark-1200.webp"
+            },
+            {
+              "width": 1600,
+              "src": "/photos/stenvaller-mark.webp"
+            }
+          ],
+          "alt": ""
+        }
+      },
+      "renhallning": {
+        "tag": "Året runt",
+        "title": "Renhållning",
+        "href": "/tjanster/renhallning",
+        "image": {
+          "src": "/photos/stenvaller-renhallning.webp",
+          "variants": [
+            {
+              "width": 480,
+              "src": "/photos/stenvaller-renhallning-480.webp"
+            },
+            {
+              "width": 800,
+              "src": "/photos/stenvaller-renhallning-800.webp"
+            },
+            {
+              "width": 1200,
+              "src": "/photos/stenvaller-renhallning-1200.webp"
+            },
+            {
+              "width": 1600,
+              "src": "/photos/stenvaller-renhallning.webp"
+            }
+          ],
+          "alt": ""
+        }
+      },
+      "maskiner": {
+        "tag": "Året runt",
+        "title": "Reparation och underhåll av maskiner",
+        "href": "/tjanster/maskinservice",
+        "image": {
+          "src": "/photos/stenvaller-maskin.webp",
+          "variants": [
+            {
+              "width": 480,
+              "src": "/photos/stenvaller-maskin-480.webp"
+            },
+            {
+              "width": 800,
+              "src": "/photos/stenvaller-maskin-800.webp"
+            },
+            {
+              "width": 1200,
+              "src": "/photos/stenvaller-maskin-1200.webp"
+            },
+            {
+              "width": 1600,
+              "src": "/photos/stenvaller-maskin.webp"
             }
           ],
           "alt": ""
@@ -777,118 +893,30 @@
     }
   },
   "certificates": {
-    "order": [
-      "iso-9001",
-      "iso-14001",
-      "iso-45001",
-      "aa-kreditvardighet"
-    ],
-    "items": {
-      "iso-9001": {
-        "name": "ISO 9001 – Kvalitet",
-        "issuer": "Svensk Certifiering",
-        "description": "Den internationella standarden för kvalitetsledning. Vi har ett ledningssystem för hur vi planerar, genomför och följer upp våra uppdrag, och vi arbetar hela tiden med att bli bättre. För dig som beställare betyder det tydliga rutiner från offert till färdigt jobb.",
-        "validUntil": "",
-        "image": {
-          "src": "/photos/certifikat-iso9001.webp",
-          "variants": [
-            {
-              "width": 240,
-              "src": "/photos/certifikat-iso9001-240.webp"
-            },
-            {
-              "width": 480,
-              "src": "/photos/certifikat-iso9001.webp"
-            }
-          ],
-          "alt": "Märket Certifierat ISO 9001 från Svensk Certifiering"
-        }
-      },
-      "iso-14001": {
-        "name": "ISO 14001 – Miljö",
-        "issuer": "Svensk Certifiering",
-        "description": "Den internationella standarden för miljöledning. Vi kartlägger hur vårt arbete påverkar miljön, till exempel genom maskiner, transporter och massor, och arbetar med mål och åtgärder för att minska påverkan.",
-        "validUntil": "",
-        "image": {
-          "src": "/photos/certifikat-iso14001.webp",
-          "variants": [
-            {
-              "width": 240,
-              "src": "/photos/certifikat-iso14001-240.webp"
-            },
-            {
-              "width": 480,
-              "src": "/photos/certifikat-iso14001.webp"
-            }
-          ],
-          "alt": "Märket Certifierat ISO 14001 från Svensk Certifiering"
-        }
-      },
-      "iso-45001": {
-        "name": "ISO 45001 – Arbetsmiljö",
-        "issuer": "Svensk Certifiering",
-        "description": "Den internationella standarden för arbetsmiljö. Vi arbetar förebyggande med risker och säkerhet, så att alla som jobbar på eller passerar våra arbetsplatser ska kunna känna sig trygga.",
-        "validUntil": "",
-        "image": {
-          "src": "/photos/certifikat-iso45001.webp",
-          "variants": [
-            {
-              "width": 240,
-              "src": "/photos/certifikat-iso45001-240.webp"
-            },
-            {
-              "width": 480,
-              "src": "/photos/certifikat-iso45001.webp"
-            }
-          ],
-          "alt": "Märket Certifierat ISO 45001 från Svensk Certifiering"
-        }
-      },
-      "aa-kreditvardighet": {
-        "name": "AA – God kreditvärdighet",
-        "issuer": "Dun & Bradstreet",
-        "description": "Markmontage har kreditbetyget AA, God kreditvärdighet, enligt Dun & Bradstreets bedömning i februari 2025. Betyget bygger på företagets ekonomi och betalningsförmåga och visar att vi är en stabil partner att anlita.",
-        "validUntil": "",
-        "image": {
-          "src": "/photos/certifikat-aa.webp",
-          "variants": [
-            {
-              "width": 320,
-              "src": "/photos/certifikat-aa-320.webp"
-            },
-            {
-              "width": 640,
-              "src": "/photos/certifikat-aa.webp"
-            }
-          ],
-          "alt": "Dun & Bradstreets märke för kreditbetyget AA, God kreditvärdighet, för Markmontage Beab AB"
-        }
-      }
-    }
+    "order": [],
+    "items": {}
   },
   "pages": {
     "order": [
       "hem",
       "om-oss",
-      "projekt",
-      "certifikat"
+      "aret-runt"
     ],
     "items": {
       "hem": {
         "slug": "",
         "title": "Hem",
         "seo": {
-          "title": "Markmontage BEAB AB | Mark- och grundarbeten i Kungälv & Göteborg",
-          "description": "Markmontage BEAB AB utför mark- och grundarbeten i Kungälv, Göteborg och övriga Västra Götaland."
+          "title": "Stenvaller Entreprenad AB | Fastighetsskötsel och utemiljö i Stenungsund",
+          "description": "Fastighetsservice, grönyteskötsel, röjning, markskötsel, snöröjning och löpande underhåll i Stenungsund med omnejd."
         },
         "sections": {
           "order": [
             "hero",
             "tjanster",
-            "uppdrag",
-            "siffror",
-            "grund",
-            "erbjudanden",
+            "aret-runt",
+            "en-kontakt",
+            "kunder",
             "om-oss",
             "process",
             "faq",
@@ -901,26 +929,26 @@
               "hidden": false,
               "anchor": "",
               "label": "",
-              "eyebrow": "Markmontage BEAB AB · Sedan 2002",
-              "heading": "Mark- och grundarbeten i Kungälv & Göteborg",
+              "eyebrow": "Stenvaller Entreprenad AB · Stora Höga",
+              "heading": "Fastighetsskötsel och utemiljö året runt i Stenungsund",
               "image": {
-                "src": "/photos/hero-hamnen.webp",
+                "src": "/photos/stenvaller-hero.webp",
                 "variants": [
                   {
                     "width": 480,
-                    "src": "/photos/hero-hamnen-480.webp"
+                    "src": "/photos/stenvaller-hero-480.webp"
                   },
                   {
                     "width": 800,
-                    "src": "/photos/hero-hamnen-800.webp"
+                    "src": "/photos/stenvaller-hero-800.webp"
                   },
                   {
                     "width": 1200,
-                    "src": "/photos/hero-hamnen-1200.webp"
+                    "src": "/photos/stenvaller-hero-1200.webp"
                   },
                   {
-                    "width": 1536,
-                    "src": "/photos/hero-hamnen.webp"
+                    "width": 1920,
+                    "src": "/photos/stenvaller-hero.webp"
                   }
                 ],
                 "alt": ""
@@ -942,222 +970,186 @@
               },
               "cardLinkPrefix": "Läs mer om"
             },
-            "uppdrag": {
+            "aret-runt": {
               "type": "uppdragCarousel",
               "hidden": false,
               "anchor": "",
               "label": "",
-              "heading": "Uppdrag vi utför",
-              "text": "Från första spadtaget till färdig yta – schakt och massförflyttning, grundläggning, dränering och anläggning av vägar, planer och stenlagda ytor.",
+              "heading": "Arbeten året runt",
+              "text": "Gräsklippning och grönytor på sommaren, röjning och löv på hösten, snöröjning på vintern – och fastighetsservice hela året.",
               "link": {
-                "label": "Se alla uppdrag",
-                "href": "/projekt"
+                "label": "Se hela året",
+                "href": "/aret-runt"
               }
             },
-            "siffror": {
-              "type": "stats",
-              "hidden": false,
-              "anchor": "",
-              "label": "",
-              "heading": "Markmontage i siffror",
-              "items": {
-                "order": [
-                  "grundat",
-                  "ar",
-                  "anstallda"
-                ],
-                "items": {
-                  "grundat": {
-                    "label": "Grundat",
-                    "valueType": "number",
-                    "value": 2002,
-                    "countUp": false
-                  },
-                  "ar": {
-                    "label": "År i branschen",
-                    "valueType": "yearsSince",
-                    "value": 2002,
-                    "countUp": true
-                  },
-                  "anstallda": {
-                    "label": "Anställda",
-                    "valueType": "number",
-                    "value": 18,
-                    "countUp": true
-                  }
-                }
-              }
-            },
-            "grund": {
+            "en-kontakt": {
               "type": "feature",
               "hidden": false,
               "anchor": "",
               "label": "",
-              "heading": "Ett bygge är aldrig starkare än sin grund",
-              "text": "Därför lägger vi stor vikt vid fackmannamässigt utförande i varje moment – från första spadtaget till färdig yta.",
+              "heading": "En kontakt för fastighet, mark och utemiljö",
+              "text": "Vi tar både enstaka uppdrag och återkommande service, så att samma kontakt kan hjälpa till med fastighetens olika behov under året.",
               "image": {
-                "src": "/photos/markmontage-gravmaskin-ror.webp",
+                "src": "/photos/stenvaller-utemiljo.webp",
                 "variants": [
                   {
                     "width": 480,
-                    "src": "/photos/markmontage-gravmaskin-ror-480.webp"
+                    "src": "/photos/stenvaller-utemiljo-480.webp"
                   },
                   {
                     "width": 800,
-                    "src": "/photos/markmontage-gravmaskin-ror-800.webp"
+                    "src": "/photos/stenvaller-utemiljo-800.webp"
                   },
                   {
                     "width": 1200,
-                    "src": "/photos/markmontage-gravmaskin-ror-1200.webp"
+                    "src": "/photos/stenvaller-utemiljo-1200.webp"
                   },
                   {
-                    "width": 1500,
-                    "src": "/photos/markmontage-gravmaskin-ror.webp"
+                    "width": 1600,
+                    "src": "/photos/stenvaller-utemiljo.webp"
                   }
                 ],
                 "alt": ""
               },
               "cards": {
                 "order": [
-                  "tydligt",
-                  "anpassat"
+                  "aterkommande",
+                  "enstaka"
                 ],
                 "items": {
-                  "tydligt": {
-                    "heading": "Tydligt från start",
-                    "text": "Vid ett kostnadsfritt hembesök går vi igenom förutsättningarna på plats. Därefter får du en fast offert, så att du vet vad som ingår innan något arbete påbörjas.",
-                    "icon": "Home",
+                  "aterkommande": {
+                    "heading": "Återkommande service",
+                    "text": "Med ett löpande serviceavtal får fastigheten hjälp under årets alla säsonger: gräs och grönytor på sommaren, löv på hösten och snö på vintern.",
+                    "icon": "Calendar",
                     "link": {
                       "label": "Så går det till",
                       "href": "#process"
                     },
                     "image": {
-                      "src": "/photos/markmontage-arbete.webp",
+                      "src": "/photos/stenvaller-gronyta.webp",
                       "variants": [
                         {
                           "width": 480,
-                          "src": "/photos/markmontage-arbete-480.webp"
+                          "src": "/photos/stenvaller-gronyta-480.webp"
                         },
                         {
                           "width": 800,
-                          "src": "/photos/markmontage-arbete-800.webp"
+                          "src": "/photos/stenvaller-gronyta-800.webp"
                         },
                         {
                           "width": 1200,
-                          "src": "/photos/markmontage-arbete-1200.webp"
+                          "src": "/photos/stenvaller-gronyta-1200.webp"
                         },
                         {
-                          "width": 1745,
-                          "src": "/photos/markmontage-arbete.webp"
+                          "width": 1600,
+                          "src": "/photos/stenvaller-gronyta.webp"
                         }
                       ],
-                      "alt": "",
-                      "focus": "20% 45%"
+                      "alt": ""
                     }
                   },
-                  "anpassat": {
-                    "heading": "Anpassat efter marken",
-                    "text": "Varje uppdrag anpassas efter förhållandena på platsen – från lera och berg till mer lättarbetad mark – och efter markens bärighet och grundvattennivå.",
-                    "icon": "Layers",
+                  "enstaka": {
+                    "heading": "Enstaka uppdrag",
+                    "text": "Behöver du hjälp med ett enskilt jobb, som en röjning, ett mindre markarbete eller att få ordning på utemiljön, går det lika bra.",
+                    "icon": "Handshake",
                     "link": {
                       "label": "Se våra tjänster",
                       "href": "#tjanster"
                     },
                     "image": {
-                      "src": "/photos/markmontage-minigravare.webp",
+                      "src": "/photos/stenvaller-rojning.webp",
                       "variants": [
                         {
                           "width": 480,
-                          "src": "/photos/markmontage-minigravare-480.webp"
+                          "src": "/photos/stenvaller-rojning-480.webp"
                         },
                         {
                           "width": 800,
-                          "src": "/photos/markmontage-minigravare-800.webp"
+                          "src": "/photos/stenvaller-rojning-800.webp"
                         },
                         {
                           "width": 1200,
-                          "src": "/photos/markmontage-minigravare-1200.webp"
+                          "src": "/photos/stenvaller-rojning-1200.webp"
                         },
                         {
-                          "width": 1500,
-                          "src": "/photos/markmontage-minigravare.webp"
+                          "width": 1600,
+                          "src": "/photos/stenvaller-rojning.webp"
                         }
                       ],
-                      "alt": "",
-                      "focus": "88% 70%"
+                      "alt": ""
                     }
                   }
                 }
               }
             },
-            "erbjudanden": {
+            "kunder": {
               "type": "promo",
               "hidden": false,
               "anchor": "",
               "label": "",
               "boxes": {
                 "order": [
-                  "totalentreprenad",
-                  "bygga"
+                  "foreningar",
+                  "privat"
                 ],
                 "items": {
-                  "totalentreprenad": {
+                  "foreningar": {
                     "side": "left",
-                    "heading": "Hela markarbetet hos en entreprenör",
-                    "text": "Som totalentreprenör tar vi helhetsansvaret – från schaktning och dränering till grundläggning, VA-arbeten och färdig mark. Du får en kontaktperson genom hela projektet.",
-                    "link": {
-                      "label": "Läs mer om totalentreprenad",
-                      "href": "/tjanster/totalentreprenad"
-                    },
-                    "image": {
-                      "src": "/photos/markmontage-kabeltrumma.webp",
-                      "variants": [
-                        {
-                          "width": 480,
-                          "src": "/photos/markmontage-kabeltrumma-480.webp"
-                        },
-                        {
-                          "width": 800,
-                          "src": "/photos/markmontage-kabeltrumma-800.webp"
-                        },
-                        {
-                          "width": 1200,
-                          "src": "/photos/markmontage-kabeltrumma-1200.webp"
-                        },
-                        {
-                          "width": 1700,
-                          "src": "/photos/markmontage-kabeltrumma.webp"
-                        }
-                      ],
-                      "alt": ""
-                    }
-                  },
-                  "bygga": {
-                    "side": "right",
-                    "heading": "Ska du bygga nytt eller bygga till?",
-                    "text": "Vi tar hand om markarbetet inför bygget – schakt, grundläggning och VA – och samordnar vid behov arbetet med övriga entreprenörer i projektet.",
+                    "heading": "För föreningar, företag och fastighetsägare",
+                    "text": "Vi hjälper bostadsrättsföreningar, samfälligheter, företag och fastighetsägare med skötseln av fastigheter, mark och utemiljöer – som löpande service eller vid enstaka tillfällen.",
                     "link": {
                       "label": "Begär offert",
                       "href": "#offert"
                     },
                     "image": {
-                      "src": "https://images.pexels.com/photos/29735767/pexels-photo-29735767.jpeg?auto=compress&cs=tinysrgb&w=1600",
+                      "src": "/photos/stenvaller-fastighet.webp",
                       "variants": [
                         {
                           "width": 480,
-                          "src": "https://images.pexels.com/photos/29735767/pexels-photo-29735767.jpeg?auto=compress&cs=tinysrgb&w=480"
+                          "src": "/photos/stenvaller-fastighet-480.webp"
                         },
                         {
                           "width": 800,
-                          "src": "https://images.pexels.com/photos/29735767/pexels-photo-29735767.jpeg?auto=compress&cs=tinysrgb&w=800"
+                          "src": "/photos/stenvaller-fastighet-800.webp"
                         },
                         {
                           "width": 1200,
-                          "src": "https://images.pexels.com/photos/29735767/pexels-photo-29735767.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                          "src": "/photos/stenvaller-fastighet-1200.webp"
                         },
                         {
                           "width": 1600,
-                          "src": "https://images.pexels.com/photos/29735767/pexels-photo-29735767.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                          "src": "/photos/stenvaller-fastighet.webp"
+                        }
+                      ],
+                      "alt": ""
+                    }
+                  },
+                  "privat": {
+                    "side": "right",
+                    "heading": "Hjälp med tomt och trädgård",
+                    "text": "Även privatpersoner är välkomna att höra av sig om gräsklippning, trädgårdsarbete, röjning eller snöröjning.",
+                    "link": {
+                      "label": "Kontakta oss",
+                      "href": "#kontakt"
+                    },
+                    "image": {
+                      "src": "/photos/stenvaller-vinter.webp",
+                      "variants": [
+                        {
+                          "width": 480,
+                          "src": "/photos/stenvaller-vinter-480.webp"
+                        },
+                        {
+                          "width": 800,
+                          "src": "/photos/stenvaller-vinter-800.webp"
+                        },
+                        {
+                          "width": 1200,
+                          "src": "/photos/stenvaller-vinter-1200.webp"
+                        },
+                        {
+                          "width": 1600,
+                          "src": "/photos/stenvaller-vinter.webp"
                         }
                       ],
                       "alt": ""
@@ -1176,26 +1168,26 @@
                 "label": "Mer om oss",
                 "href": "/om-oss"
               },
-              "subheading": "Markmontage BEAB AB har sin bas i Romelanda utanför Kungälv och grundades 2002.",
-              "text": "Markmontage BEAB AB är ett entreprenadföretag inom mark- och grundarbeten, verksamt i Kungälv, Göteborg och övriga Västra Götaland. Vi utför bland annat schaktning, dränering, grundläggning och VA-arbeten, och tar även helhetsansvar som totalentreprenör på större projekt.",
+              "subheading": "Stenvaller Entreprenad AB är ett lokalt entreprenadföretag med bas i Stora Höga i Stenungsunds kommun.",
+              "text": "Vi arbetar med fastighetsskötsel, utemiljö och markservice och hjälper fastighetsägare, företag, föreningar och andra kunder med både löpande service och enstaka arbeten.",
               "image": {
-                "src": "/photos/markmontage-teamet.webp",
+                "src": "/photos/stenvaller-utemiljo.webp",
                 "variants": [
                   {
                     "width": 480,
-                    "src": "/photos/markmontage-teamet-480.webp"
+                    "src": "/photos/stenvaller-utemiljo-480.webp"
                   },
                   {
                     "width": 800,
-                    "src": "/photos/markmontage-teamet-800.webp"
+                    "src": "/photos/stenvaller-utemiljo-800.webp"
                   },
                   {
                     "width": 1200,
-                    "src": "/photos/markmontage-teamet-1200.webp"
+                    "src": "/photos/stenvaller-utemiljo-1200.webp"
                   },
                   {
-                    "width": 2000,
-                    "src": "/photos/markmontage-teamet.webp"
+                    "width": 1600,
+                    "src": "/photos/stenvaller-utemiljo.webp"
                   }
                 ],
                 "alt": ""
@@ -1207,34 +1199,34 @@
               "anchor": "process",
               "label": "",
               "heading": "Så går det till",
-              "text": "Fyra tydliga steg från första kontakt till avslutat markarbete.",
+              "text": "Från första kontakt till utfört arbete, eller löpande service året runt.",
               "steps": {
                 "order": [
                   "kontakt",
-                  "hembesok",
+                  "genomgang",
                   "offert",
-                  "genomforande"
+                  "utforande"
                 ],
                 "items": {
                   "kontakt": {
                     "title": "Kontakt",
-                    "description": "Du hör av dig via telefon eller formuläret och berättar kort om ditt projekt, så återkommer vi snabbt med nästa steg.",
+                    "description": "Du ringer eller skickar en förfrågan via formuläret och berättar kort vad du behöver hjälp med.",
                     "icon": "Phone"
                   },
-                  "hembesok": {
-                    "title": "Kostnadsfritt hembesök",
-                    "description": "Vi besöker dig på plats för att gå igenom förutsättningarna och lyssna på dina önskemål, helt utan kostnad eller förpliktelser.",
-                    "icon": "Home"
+                  "genomgang": {
+                    "title": "Genomgång",
+                    "description": "Vi går igenom vad som ska göras och tittar på platsen när det behövs.",
+                    "icon": "MapPin"
                   },
                   "offert": {
-                    "title": "Fast offert",
-                    "description": "Du får en tydlig och fast offert innan något arbete påbörjas, så att du vet exakt vad som ingår och vad projektet kostar.",
+                    "title": "Offert",
+                    "description": "Du får en offert, så att du vet vad som ingår innan arbetet börjar.",
                     "icon": "FileText"
                   },
-                  "genomforande": {
-                    "title": "Genomförande",
-                    "description": "Vårt team genomför arbetet enligt tidsplan, med löpande avstämning och fokus på högsta kvalitet hela vägen till ett färdigställt resultat.",
-                    "icon": "HardHat"
+                  "utforande": {
+                    "title": "Utförande",
+                    "description": "Vi utför arbetet, som ett enstaka uppdrag eller som återkommande service under året.",
+                    "icon": "ThumbsUp"
                   }
                 }
               }
@@ -1248,42 +1240,42 @@
               "phonePrompt": "Hittar du inte svaret? Ring oss på",
               "items": {
                 "order": [
-                  "offert",
-                  "tid",
-                  "totalentreprenor",
-                  "tjale",
-                  "rotavdrag",
-                  "fast-pris",
-                  "omraden"
+                  "omraden",
+                  "serviceavtal",
+                  "kunder",
+                  "vinter",
+                  "markarbeten",
+                  "maskiner",
+                  "offert"
                 ],
                 "items": {
-                  "offert": {
-                    "question": "Hur går en offertförfrågan till?",
-                    "answer": "Du kontaktar oss via telefon eller formuläret på sidan och berättar kort om ditt projekt. Därefter bokar vi ett kostnadsfritt hembesök där vi går igenom förutsättningarna tillsammans, och du får en fast offert innan något arbete påbörjas."
-                  },
-                  "tid": {
-                    "question": "Hur lång tid tar ett mark- eller grundarbete?",
-                    "answer": "Tidsåtgången beror helt på projektets omfattning – allt från en dränering till grundläggning av en hel villa. Vid hembesöket går vi igenom en realistisk tidsplan för just ditt projekt, så att du vet vad du kan förvänta dig innan arbetet startar."
-                  },
-                  "totalentreprenor": {
-                    "question": "Vad innebär det att ni arbetar som totalentreprenör?",
-                    "answer": "Som totalentreprenör tar Markmontage BEAB AB helhetsansvaret för mark- och grundarbetet och samordnar samtliga moment som krävs, från schaktning och dränering till grundläggning och VA. Du behöver bara en kontakt genom hela processen istället för att själv hantera flera olika entreprenörer."
-                  },
-                  "tjale": {
-                    "question": "Kan ni arbeta året runt, även när det är tjäle i marken?",
-                    "answer": "Tjäle påverkar när och hur vissa markarbeten kan utföras. Vid hembesöket bedömer vi förutsättningarna för just din tomt och planerar arbetet efter årstid och väderlek, så att du får en realistisk tidsplan redan från start."
-                  },
-                  "rotavdrag": {
-                    "question": "Kan jag få rotavdrag på mark- och grundarbete?",
-                    "answer": "Som privatperson kan du få rotavdrag på arbetskostnaden för vissa mark- och grundarbeten vid din bostad, till exempel dränering och grundförstärkning i samband med renovering eller tillbyggnad. Avdraget är 30 procent av arbetskostnaden, upp till 50 000 kronor per person och år. Vi drar av beloppet direkt på fakturan och sköter ansökan till Skatteverket."
-                  },
-                  "fast-pris": {
-                    "question": "Ger ni fast pris på era projekt?",
-                    "answer": "Ja, efter det kostnadsfria hembesöket får du en fast offert innan arbetet påbörjas, så att du vet exakt vad som ingår och vad projektet kostar. Skulle nya önskemål tillkomma under projektets gång stämmer vi alltid av med dig innan vi går vidare."
-                  },
                   "omraden": {
                     "question": "Vilka områden arbetar ni i?",
-                    "answer": "Vi utför mark- och grundarbeten i Kungälv, Göteborg och övriga Västra Götaland. Är du osäker på om vi arbetar där du bor är du varmt välkommen att höra av dig, så ger vi dig snabbt besked."
+                    "answer": "Vi utgår från Stora Höga och arbetar i Stenungsund med omnejd. Är du osäker på om vi kan hjälpa till där du finns är du välkommen att höra av dig."
+                  },
+                  "serviceavtal": {
+                    "question": "Kan vi teckna ett löpande serviceavtal?",
+                    "answer": "Ja. Vi tar både enstaka uppdrag och återkommande service. Med ett löpande avtal kan samma kontakt hjälpa till med fastighetens skötsel under hela året, från grönytor och röjning till snöröjning och renhållning."
+                  },
+                  "kunder": {
+                    "question": "Vilka arbetar ni åt?",
+                    "answer": "Vi hjälper fastighetsägare, företag, bostadsrättsföreningar, samfälligheter och industrifastigheter, och även privatpersoner som behöver hjälp med fastighet, tomt eller utemiljö."
+                  },
+                  "vinter": {
+                    "question": "Tar ni snöröjning på vintern?",
+                    "answer": "Ja, snöröjning, skötsel av gångvägar och annat vinterunderhåll ingår i det vi gör. Hör gärna av dig i god tid inför säsongen, så går vi igenom vad som behövs."
+                  },
+                  "markarbeten": {
+                    "question": "Gör ni större markentreprenader?",
+                    "answer": "Vi är inriktade på skötsel och service av fastigheter, mark och utemiljöer och utför enklare markarbeten. Berätta vad du har på gång, så säger vi om det är något vi kan hjälpa till med."
+                  },
+                  "maskiner": {
+                    "question": "Reparerar ni maskiner?",
+                    "answer": "Ja, vi utför reparation och underhåll av maskiner. Beskriv maskinen och vad som behöver göras, så återkommer vi."
+                  },
+                  "offert": {
+                    "question": "Hur begär jag en offert?",
+                    "answer": "Ring oss eller fyll i formuläret och berätta kort vad du behöver hjälp med. Vi återkommer med nästa steg."
                   }
                 }
               }
@@ -1294,10 +1286,10 @@
               "anchor": "kontakt",
               "label": "",
               "heading": "Kontakta oss",
-              "text": "Hör av dig för en kostnadsfri offert, så återkommer vi så snart vi kan.",
+              "text": "Berätta vad du behöver hjälp med, så återkommer vi så snart vi kan.",
               "phoneLabel": "Telefon",
               "emailLabel": "E-post",
-              "addressLabel": "Adress",
+              "addressLabel": "Ort",
               "openingHoursLabel": "Öppettider",
               "orgLabel": "Org.nr",
               "formHeading": "Begär offert"
@@ -1308,7 +1300,7 @@
               "anchor": "",
               "label": "",
               "heading": "Här finns vi",
-              "addressPrefix": "Kontor:",
+              "addressPrefix": "Bas:",
               "linkLabel": "Öppna i Google Maps",
               "zoom": 11
             }
@@ -1320,14 +1312,14 @@
         "title": "Om oss",
         "seo": {
           "title": "Om oss",
-          "description": "Markmontage BEAB AB utför mark- och grundarbeten i Kungälv, Göteborg och övriga Västra Götaland sedan 2002."
+          "description": "Stenvaller Entreprenad AB arbetar med fastighetsskötsel, utemiljö och markservice i Stenungsund med omnejd."
         },
         "sections": {
           "order": [
             "bild",
             "intro",
             "bilder",
-            "grunden"
+            "aret-runt"
           ],
           "items": {
             "bild": {
@@ -1336,27 +1328,26 @@
               "anchor": "",
               "label": "",
               "image": {
-                "src": "/photos/markmontage-teamet.webp",
+                "src": "/photos/stenvaller-utemiljo.webp",
                 "variants": [
                   {
                     "width": 480,
-                    "src": "/photos/markmontage-teamet-480.webp"
+                    "src": "/photos/stenvaller-utemiljo-480.webp"
                   },
                   {
                     "width": 800,
-                    "src": "/photos/markmontage-teamet-800.webp"
+                    "src": "/photos/stenvaller-utemiljo-800.webp"
                   },
                   {
                     "width": 1200,
-                    "src": "/photos/markmontage-teamet-1200.webp"
+                    "src": "/photos/stenvaller-utemiljo-1200.webp"
                   },
                   {
-                    "width": 2000,
-                    "src": "/photos/markmontage-teamet.webp"
+                    "width": 1600,
+                    "src": "/photos/stenvaller-utemiljo.webp"
                   }
                 ],
-                "alt": "",
-                "focus": "50% 35%"
+                "alt": ""
               },
               "size": "tall"
             },
@@ -1366,42 +1357,42 @@
               "anchor": "",
               "label": "",
               "heading": "Om oss",
-              "subheading": "Markmontage BEAB AB har sin bas i Romelanda utanför Kungälv och grundades 2002.",
+              "subheading": "Stenvaller Entreprenad AB är ett lokalt entreprenadföretag med bas i Stora Höga i Stenungsunds kommun.",
               "paragraphs": [
-                "Markmontage BEAB AB är ett entreprenadföretag inom mark- och grundarbeten, verksamt i Kungälv, Göteborg och övriga Västra Götaland. Vi utför bland annat schaktning, dränering, grundläggning och VA-arbeten, och tar även helhetsansvar som totalentreprenör på större projekt.",
-                "Markmontage BEAB AB har över 20 års erfarenhet inom branschen. Ett bygge är aldrig starkare än sin grund, och vi lägger därför stor vikt vid fackmannamässigt utförande i varje moment av mark- och grundarbetet.",
-                "Markmontage BEAB AB grundades 2002 och har idag 18 anställda.",
-                "Du är varmt välkommen att kontakta oss!"
+                "Stenvaller Entreprenad AB är ett lokalt entreprenadföretag med fokus på fastighetsskötsel, utemiljö och markservice. Vi hjälper fastighetsägare, företag, föreningar och andra kunder med både löpande service och enstaka arbeten.",
+                "Kärnan i verksamheten är det praktiska arbetet kring fastigheter och deras omgivningar: grönyteskötsel och gräsklippning, röjning, markskötsel, renhållning och snöröjning, och löpande fastighetsservice året runt. Vi utför också reparation och underhåll av maskiner.",
+                "Vi utgår från Stora Höga och arbetar i Stenungsund med omnejd.",
+                "Du är välkommen att höra av dig."
               ],
               "factsTitle": "Fakta om oss",
               "facts": {
                 "order": [
-                  "grundat",
-                  "anstallda",
                   "sate",
                   "verksamhet",
+                  "omrade",
+                  "f-skatt",
                   "org-nr"
                 ],
                 "items": {
-                  "grundat": {
-                    "label": "Grundat",
-                    "value": "2002"
-                  },
-                  "anstallda": {
-                    "label": "Anställda",
-                    "value": "18"
-                  },
                   "sate": {
                     "label": "Säte",
-                    "value": "Romelanda, Kungälv"
+                    "value": "Stora Höga, Stenungsund"
                   },
                   "verksamhet": {
                     "label": "Verksamhet",
-                    "value": "Mark- och grundarbeten"
+                    "value": "Fastighetsskötsel, utemiljö och markservice"
+                  },
+                  "omrade": {
+                    "label": "Område",
+                    "value": "Stenungsund med omnejd"
+                  },
+                  "f-skatt": {
+                    "label": "F-skatt",
+                    "value": "Ja"
                   },
                   "org-nr": {
                     "label": "Org.nr",
-                    "value": "556625-8157"
+                    "value": "559575-8540"
                   }
                 }
               }
@@ -1419,80 +1410,90 @@
                 "items": {
                   "bild-1": {
                     "image": {
-                      "src": "/photos/markmontage-konferens.webp",
+                      "src": "/photos/stenvaller-gronyta.webp",
                       "variants": [
                         {
                           "width": 480,
-                          "src": "/photos/markmontage-konferens-480.webp"
+                          "src": "/photos/stenvaller-gronyta-480.webp"
                         },
                         {
                           "width": 800,
-                          "src": "/photos/markmontage-konferens-800.webp"
+                          "src": "/photos/stenvaller-gronyta-800.webp"
                         },
                         {
-                          "width": 960,
-                          "src": "/photos/markmontage-konferens.webp"
+                          "width": 1200,
+                          "src": "/photos/stenvaller-gronyta-1200.webp"
+                        },
+                        {
+                          "width": 1600,
+                          "src": "/photos/stenvaller-gronyta.webp"
                         }
                       ],
-                      "alt": "",
-                      "focus": "50% 50%"
+                      "alt": ""
                     }
                   },
                   "bild-2": {
                     "image": {
-                      "src": "/photos/markmontage-minigravare-slap.webp",
+                      "src": "/photos/stenvaller-vinter.webp",
                       "variants": [
                         {
                           "width": 480,
-                          "src": "/photos/markmontage-minigravare-slap-480.webp"
+                          "src": "/photos/stenvaller-vinter-480.webp"
                         },
                         {
-                          "width": 720,
-                          "src": "/photos/markmontage-minigravare-slap.webp"
+                          "width": 800,
+                          "src": "/photos/stenvaller-vinter-800.webp"
+                        },
+                        {
+                          "width": 1200,
+                          "src": "/photos/stenvaller-vinter-1200.webp"
+                        },
+                        {
+                          "width": 1600,
+                          "src": "/photos/stenvaller-vinter.webp"
                         }
                       ],
-                      "alt": "",
-                      "focus": "50% 40%"
+                      "alt": ""
                     }
                   }
                 }
               }
             },
-            "grunden": {
+            "aret-runt": {
               "type": "band",
               "hidden": false,
               "anchor": "",
               "label": "",
-              "heading": "Vi lägger grunden för ditt bygge",
-              "text": "Vi utför bland annat schaktning, dränering, grundläggning och VA-arbeten i Kungälv, Göteborg och övriga Västra Götaland – och tar helhetsansvar som totalentreprenör på större projekt. Oavsett uppdrag lägger vi stor vikt vid fackmannamässigt utförande i varje moment.",
+              "heading": "Fastighet, mark och utemiljö året runt",
+              "text": "Grönyteskötsel och gräsklippning på sommaren, röjning och lövhantering på hösten, snöröjning och vinterunderhåll på vintern – och fastighetsservice, renhållning och mindre markarbeten hela året.",
               "link": {
                 "label": "Se våra tjänster",
                 "href": "/#tjanster"
               },
               "image": {
-                "src": "/photos/markmontage-gravmaskin-ror.webp",
+                "src": "/photos/stenvaller-host.webp",
                 "variants": [
                   {
                     "width": 480,
-                    "src": "/photos/markmontage-gravmaskin-ror-480.webp"
+                    "src": "/photos/stenvaller-host-480.webp"
                   },
                   {
                     "width": 800,
-                    "src": "/photos/markmontage-gravmaskin-ror-800.webp"
+                    "src": "/photos/stenvaller-host-800.webp"
                   },
                   {
                     "width": 1200,
-                    "src": "/photos/markmontage-gravmaskin-ror-1200.webp"
+                    "src": "/photos/stenvaller-host-1200.webp"
                   },
                   {
-                    "width": 1500,
-                    "src": "/photos/markmontage-gravmaskin-ror.webp"
+                    "width": 1600,
+                    "src": "/photos/stenvaller-host.webp"
                   }
                 ],
                 "alt": ""
               },
-              "secondHeading": "Från första spadtaget till färdig yta",
-              "secondText": "Du hör av dig, vi kommer ut på ett kostnadsfritt hembesök och du får en fast offert innan något arbete påbörjas. Därefter genomför vi arbetet enligt tidsplan, med löpande avstämning hela vägen.",
+              "secondHeading": "Löpande service eller enstaka uppdrag",
+              "secondText": "Vi tar både enstaka jobb och återkommande service. Med ett löpande serviceavtal har fastigheten en och samma kontakt för skötseln under hela året.",
               "secondLink": {
                 "label": "Begär offert",
                 "href": "#offert"
@@ -1501,26 +1502,26 @@
           }
         }
       },
-      "projekt": {
-        "slug": "projekt",
-        "title": "Uppdrag",
+      "aret-runt": {
+        "slug": "aret-runt",
+        "title": "Året runt",
         "seo": {
-          "title": "Uppdrag vi utför",
-          "description": "De typer av mark- och grundarbeten som Markmontage BEAB AB utför i Kungälv, Göteborg och övriga Västra Götaland."
+          "title": "Året runt",
+          "description": "Gräsklippning, röjning, lövhantering, snöröjning och fastighetsservice: det Stenvaller Entreprenad gör under årets olika säsonger."
         },
         "sections": {
           "order": [
-            "uppdrag",
+            "arbeten",
             "offert"
           ],
           "items": {
-            "uppdrag": {
+            "arbeten": {
               "type": "uppdragGrid",
               "hidden": false,
               "anchor": "",
               "label": "",
-              "heading": "Uppdrag vi utför",
-              "text": "Från första spadtaget till färdig yta. Här är de typer av uppdrag vi tar oss an – välj ett för att läsa mer om tjänsten.",
+              "heading": "Året runt",
+              "text": "Arbetet med en fastighet och dess utemiljö skiftar med årstiderna. Här är exempel på vad vi gör under året – välj ett för att läsa mer om tjänsten.",
               "filterAllLabel": "Alla"
             },
             "offert": {
@@ -1528,78 +1529,8 @@
               "hidden": false,
               "anchor": "",
               "label": "",
-              "heading": "Har du ett markprojekt på gång?",
-              "text": "Berätta kort om ditt projekt, så återkommer vi med nästa steg.",
-              "button": {
-                "label": "Begär offert",
-                "href": "#offert"
-              }
-            }
-          }
-        }
-      },
-      "certifikat": {
-        "slug": "certifikat",
-        "title": "Certifikat",
-        "seo": {
-          "title": "Certifikat",
-          "description": "Markmontage BEAB AB är certifierat enligt ISO 9001, ISO 14001 och ISO 45001 och har kreditbetyget AA, God kreditvärdighet, från Dun & Bradstreet."
-        },
-        "sections": {
-          "order": [
-            "bild",
-            "certifikat",
-            "offert"
-          ],
-          "items": {
-            "bild": {
-              "type": "pageHero",
-              "hidden": false,
-              "anchor": "",
-              "label": "",
-              "image": {
-                "src": "/photos/markmontage-arbete.webp",
-                "variants": [
-                  {
-                    "width": 480,
-                    "src": "/photos/markmontage-arbete-480.webp"
-                  },
-                  {
-                    "width": 800,
-                    "src": "/photos/markmontage-arbete-800.webp"
-                  },
-                  {
-                    "width": 1200,
-                    "src": "/photos/markmontage-arbete-1200.webp"
-                  },
-                  {
-                    "width": 1745,
-                    "src": "/photos/markmontage-arbete.webp"
-                  }
-                ],
-                "alt": ""
-              },
-              "size": "medium"
-            },
-            "certifikat": {
-              "type": "certificates",
-              "hidden": false,
-              "anchor": "",
-              "label": "",
-              "heading": "Certifikat",
-              "text": "Markmontage är certifierat enligt ISO 9001, ISO 14001 och ISO 45001 – de internationella standarderna för kvalitet, miljö och arbetsmiljö. Certifieringarna är utfärdade av Svensk Certifiering, och dessutom har vi kreditbetyget AA från Dun & Bradstreet.",
-              "issuerPrefix": "Utfärdat av",
-              "validUntilPrefix": "Giltigt till",
-              "emptyHeading": "Certifikaten läggs upp inom kort",
-              "emptyText": "Har du frågor om våra certifikat och behörigheter är du välkommen att ringa oss på"
-            },
-            "offert": {
-              "type": "cta",
-              "hidden": false,
-              "anchor": "",
-              "label": "",
-              "heading": "Har du ett markprojekt på gång?",
-              "text": "Berätta kort om ditt projekt, så återkommer vi med nästa steg.",
+              "heading": "Behöver fastigheten skötas året runt?",
+              "text": "Berätta vad du behöver hjälp med, så återkommer vi med nästa steg.",
               "button": {
                 "label": "Begär offert",
                 "href": "#offert"

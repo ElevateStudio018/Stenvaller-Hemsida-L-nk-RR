@@ -4,7 +4,7 @@ Hemsidan och adminpanelen är färdigbyggda. Kvar är att koppla in Supabase, so
 är det du gör, och del 2 är instruktioner för Claude.
 
 **Under testperioden går alla mejl till elevate.studio018@gmail.com:** offertförfrågningar, medarbetarnas förslag
-och inbjudan till adminpanelen. Du är admin. Markmontage får ingenting förrän du säger till (se "Vid lansering"
+och inbjudan till adminpanelen. Du är admin. Stenvaller får ingenting förrän du säger till (se "Vid lansering"
 längst ner).
 
 ## Del 1 – det här gör du
@@ -16,7 +16,7 @@ chatten.
 
 1. Gå till [supabase.com](https://supabase.com) och logga in. "Continue with GitHub" fungerar.
 2. Tryck **New project**.
-3. Namn: `markmontage`. Region: Stockholm, eller annars närmaste i Europa.
+3. Namn: `stenvaller`. Region: Stockholm, eller annars närmaste i Europa.
 4. Databaslösenord: tryck **Generate a password** och spara lösenordet i din lösenordshanterare. Det behövs inte i
    chatten.
 5. Planen **Free** räcker för att testa. Tryck **Create new project** och vänta ett par minuter.
@@ -30,13 +30,13 @@ chatten.
 
 Claude läser in kopplingar (connectors) när en session startar, så Supabase syns först i en ny session.
 
-1. Starta en ny Claude Code-session på repot **ElevateStudio018/Bugg-test**, grenen
+1. Starta en ny Claude Code-session på repot **ElevateStudio018/Stenvaller-Hemsida-L-nk-RR**, grenen
    **claude/flottsunds-bygg-site-wptib7**.
 2. Skriv: **Koppla in Supabase enligt SETUP.md**
 
 Claude lägger in databasen och funktionerna och kopplar ihop hemsidan med adminpanelen. Sedan visar Claude hur du
 skapar din inloggning direkt i Supabase, så att inget mejl behövs. Därefter loggar du in på
-[elevatestudio018.github.io/Bugg-test/admin](https://elevatestudio018.github.io/Bugg-test/admin/).
+[elevatestudio018.github.io/Stenvaller-Hemsida-L-nk-RR/admin](https://elevatestudio018.github.io/Stenvaller-Hemsida-L-nk-RR/admin/).
 
 ### Steg 4 – Senare: tre nycklar, en i taget när du vill
 
@@ -46,27 +46,27 @@ ska skrivas exakt som nedan.
 
 | Namn | Vad den gör | Var du skapar nyckeln |
 | --- | --- | --- |
-| `GITHUB_DISPATCH_TOKEN` | Hemsidan uppdateras när du trycker Publicera. | GitHub → din profilbild → **Settings** → **Developer settings** → **Personal access tokens** → **Fine-grained tokens** → **Generate new token**. Resource owner: `ElevateStudio018`. Repository access: **Only select repositories** → `Bugg-test`. Permissions → Repository → **Actions: Read and write**. |
+| `GITHUB_DISPATCH_TOKEN` | Hemsidan uppdateras när du trycker Publicera. | GitHub → din profilbild → **Settings** → **Developer settings** → **Personal access tokens** → **Fine-grained tokens** → **Generate new token**. Resource owner: `ElevateStudio018`. Repository access: **Only select repositories** → `Stenvaller-Hemsida-L-nk-RR`. Permissions → Repository → **Actions: Read and write**. |
 | `RESEND_API_KEY` | Mejl om offertförfrågningar och förslag. | [resend.com](https://resend.com): registrera dig med **elevate.studio018@gmail.com** → **API Keys** → **Create API key**. Med den adressen behövs ingen egen domän under testperioden. |
 | `ANTHROPIC_API_KEY` | AI-assistenten. | [console.anthropic.com](https://console.anthropic.com) → **API keys** → **Create key**. Lägg också in ett betalkort och några dollar under **Billing**. |
 
 ### Vid lansering (senare, när du säger till)
 
-- Markmontage läggs till som admin och får sin inbjudan.
-- Secret `QUOTE_NOTIFY_EMAIL` = `info@markmontage.se`, så att offertförfrågningarna går till Markmontage.
+- Stenvaller läggs till som admin och får sin inbjudan.
+- Secret `QUOTE_NOTIFY_EMAIL` = Stenvallers e-postadress (inte bestämd än), så att offertförfrågningarna går till Stenvaller.
   Förslagen fortsätter till Elevate.
 - Egen domän: verifiera domänen i Resend och sätt `EMAIL_FROM`, `SITE_URL`, `ADMIN_URL` och `ALLOWED_ORIGINS`
   (se `supabase/functions/.env.example`).
-- Bestäm priserna på credit-paketen och vilket telefonnummer som stämmer (031-385 41 41 eller 031-385 40 50).
+- Bestäm priserna på credit-paketen.
 
 ## Del 2 – for Claude: installing the backend
 
-Everything is in this repository. The site is a Next.js static export on GitHub Pages (basePath `/Bugg-test`), built by
+Everything is in this repository. The site is a Next.js static export on GitHub Pages (basePath `/Stenvaller-Hemsida-L-nk-RR`), built by
 `.github/workflows/deploy-pages.yml`. Supabase holds the drafts, published versions, quote requests, staff suggestions,
 images, credits and the AI conversations. `supabase/tests/README.md` describes the local test stack these steps were
 verified on.
 
-Ground rules: nothing may be e-mailed to info@markmontage.se, and the customer may not be made an admin or invited,
+Ground rules: nothing may be e-mailed to Stenvaller, and the customer may not be made an admin or invited,
 until the user says so. Never ask the user to paste a key, token or password into the chat.
 
 1. **Project.** With the Supabase connector, find the user's project and note its ref, URL and the legacy `anon` key.
@@ -85,8 +85,8 @@ until the user says so. Never ask the user to paste a key, token or password int
    `IP_HASH_SALT` and `RESET_SIGNING_SECRET` fall back to values derived from the service role key, and quote requests
    go to `AGENCY_EMAIL` until `QUOTE_NOTIFY_EMAIL` is set. Confirm the three secrets exist by name only, never by value.
 5. **Auth settings.** Change these through the connector or the Management API, or have the user change them in the
-   dashboard. Site URL: `https://elevatestudio018.github.io/Bugg-test/admin/`. Redirect URLs:
-   `https://elevatestudio018.github.io/Bugg-test/admin/**`. Sign-ups off. Minimum password length 12, requiring
+   dashboard. Site URL: `https://elevatestudio018.github.io/Stenvaller-Hemsida-L-nk-RR/admin/`. Redirect URLs:
+   `https://elevatestudio018.github.io/Stenvaller-Hemsida-L-nk-RR/admin/**`. Sign-ups off. Minimum password length 12, requiring
    lower- and upper-case letters, digits and symbols, as in `supabase/config.toml`.
 6. **Connect the site.** Set the GitHub repository variables `NEXT_PUBLIC_SUPABASE_URL` and
    `NEXT_PUBLIC_SUPABASE_ANON_KEY`. Use the GitHub API if this session may, otherwise the user does it under Settings →

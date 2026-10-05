@@ -5,7 +5,7 @@ export interface OutboxRecord {
   entry: unknown;
 }
 
-const DB_NAME = "markmontage-admin";
+const DB_NAME = "stenvaller-admin";
 const STORE = "outbox";
 
 function open(): Promise<IDBDatabase | null> {

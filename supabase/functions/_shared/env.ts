@@ -16,9 +16,9 @@ export const config = {
   anonKey: () => env("SUPABASE_ANON_KEY"),
   serviceRoleKey: () => env("SUPABASE_SERVICE_ROLE_KEY"),
   /** The public site, for links in e-mails. */
-  siteUrl: () => env("SITE_URL", "https://elevatestudio018.github.io/Bugg-test"),
+  siteUrl: () => env("SITE_URL", "https://elevatestudio018.github.io/Stenvaller-Hemsida-L-nk-RR"),
   /** The admin panel, for links in e-mails. */
-  adminUrl: () => env("ADMIN_URL", `${env("SITE_URL", "https://elevatestudio018.github.io/Bugg-test")}/admin`),
+  adminUrl: () => env("ADMIN_URL", `${env("SITE_URL", "https://elevatestudio018.github.io/Stenvaller-Hemsida-L-nk-RR")}/admin`),
   /** Elevate Studio, who approve resets, receive credit orders and the staff's suggestions, and quote requests until launch. */
   agencyEmail: () => env("AGENCY_EMAIL", "elevate.studio018@gmail.com"),
   /** A secret for one purpose: its own setting when there is one, otherwise derived from the service role key, so a new

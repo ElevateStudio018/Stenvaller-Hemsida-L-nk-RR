@@ -53,7 +53,7 @@ await test("allowlisted address becomes admin, others do not", async () => {
   assert.equal((await rpc("is_admin", {}, { token: admin })).json, true);
   assert.equal((await rpc("is_admin", {}, { token: outsider })).json, false);
   // The customer is added at launch, not before.
-  const customer = await user("info@markmontage.se", "Testlösen0rd!ABC");
+  const customer = await user("kund@stenvaller.example", "Testlösen0rd!ABC");
   assert.equal((await rpc("is_admin", {}, { token: customer })).json, false);
 });
 

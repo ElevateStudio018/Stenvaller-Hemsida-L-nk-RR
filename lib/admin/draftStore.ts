@@ -64,10 +64,10 @@ const MAX_UNDO = 20;
 
 function clientId(): string {
   try {
-    let id = localStorage.getItem("markmontage-admin-client");
+    let id = localStorage.getItem("stenvaller-admin-client");
     if (!id) {
       id = `c-${crypto.randomUUID()}`;
-      localStorage.setItem("markmontage-admin-client", id);
+      localStorage.setItem("stenvaller-admin-client", id);
     }
     return id;
   } catch {
@@ -150,7 +150,7 @@ export class DraftStore {
     });
     window.addEventListener("pagehide", () => this.flush());
     try {
-      this.channel = new BroadcastChannel("markmontage-admin");
+      this.channel = new BroadcastChannel("stenvaller-admin");
       this.channel.onmessage = (message) => {
         if (message.data?.type === "saved" || message.data?.type === "published") this.scheduleReload();
       };

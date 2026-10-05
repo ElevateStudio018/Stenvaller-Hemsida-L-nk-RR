@@ -44,11 +44,11 @@ test("three new FAQ questions cost 5 each", () => {
 
 test("a heading is a minor change (1); rewriting a section's texts costs 3", () => {
   const hero = ["pages", "items", "hem", "sections", "items", "hero"];
-  assert.equal(run([{ op: "set", path: [...hero, "heading"], valueJson: JSON.stringify("Markarbeten i Kungälv") }]).price.total, 1);
+  assert.equal(run([{ op: "set", path: [...hero, "heading"], valueJson: JSON.stringify("Snöröjning i Stenungsund") }]).price.total, 1);
   const about = ["pages", "items", "hem", "sections", "items", "om-oss"];
   const rewrite: Operation[] = [
-    { op: "set", path: [...about, "heading"], valueJson: JSON.stringify("Om Markmontage") },
-    { op: "set", path: [...about, "subheading"], valueJson: JSON.stringify("Vi har gjort mark- och grundarbeten sedan 2002.") },
+    { op: "set", path: [...about, "heading"], valueJson: JSON.stringify("Om Stenvaller") },
+    { op: "set", path: [...about, "subheading"], valueJson: JSON.stringify("Vi sköter fastigheter och utemiljöer i Stenungsund.") },
     { op: "set", path: [...about, "text"], valueJson: JSON.stringify("Ny text om företaget.") },
   ];
   assert.equal(run(rewrite).price.total, 3);
@@ -61,8 +61,8 @@ test("colours cost 2 however many change; a page's SEO costs 8", () => {
   ];
   assert.equal(run(ops).price.total, 2);
   const seo: Operation[] = [
-    { op: "set", path: ["pages", "items", "om-oss", "seo", "title"], valueJson: JSON.stringify("Om oss – markentreprenör i Kungälv") },
-    { op: "set", path: ["pages", "items", "om-oss", "seo", "description"], valueJson: JSON.stringify("Markmontage gör mark- och grundarbeten i Kungälv och Göteborg sedan 2002.") },
+    { op: "set", path: ["pages", "items", "om-oss", "seo", "title"], valueJson: JSON.stringify("Om oss – fastighetsskötsel i Stenungsund") },
+    { op: "set", path: ["pages", "items", "om-oss", "seo", "description"], valueJson: JSON.stringify("Stenvaller sköter fastigheter, mark och utemiljöer i Stenungsund med omnejd.") },
   ];
   assert.equal(run(seo).price.total, 8);
 });

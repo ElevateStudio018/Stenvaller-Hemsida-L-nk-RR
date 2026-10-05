@@ -18,7 +18,7 @@ export async function triggerDeploy(version: number): Promise<DeployResult> {
     return { started: false, message: "Uppdateringen av hemsidan är inte kopplad än (GITHUB_DISPATCH_TOKEN saknas)." };
   }
 
-  const repository = env("GITHUB_REPOSITORY", "ElevateStudio018/Bugg-test");
+  const repository = env("GITHUB_REPOSITORY", "ElevateStudio018/Stenvaller-Hemsida-L-nk-RR");
   const workflow = env("GITHUB_WORKFLOW", "deploy-pages.yml");
   const ref = env("GITHUB_REF", "claude/flottsunds-bygg-site-wptib7");
   const api = env("GITHUB_API_URL", "https://api.github.com");
@@ -32,7 +32,7 @@ export async function triggerDeploy(version: number): Promise<DeployResult> {
           Accept: "application/vnd.github+json",
           "X-GitHub-Api-Version": "2022-11-28",
           "Content-Type": "application/json",
-          "User-Agent": "markmontage-admin",
+          "User-Agent": "stenvaller-admin",
         },
         body: JSON.stringify({ ref }),
       });

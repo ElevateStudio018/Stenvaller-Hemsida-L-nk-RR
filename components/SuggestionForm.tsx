@@ -6,7 +6,7 @@ import { Icon } from "./Icon";
 import { fallbackFormEmail, isConnected, supabaseAnonKey, supabaseUrl } from "@/lib/connection";
 
 // The suggestion box's own words: an internal tool for the company's staff, not part of the public site's content.
-const NAME_KEY = "markmontage-forslag-namn";
+const NAME_KEY = "stenvaller-forslag-namn";
 const fieldClass =
   "w-full border border-line/15 bg-field px-4 py-3.5 text-[17px] text-heading placeholder:text-muted transition-colors duration-150 focus:border-accent focus:outline focus:outline-2 focus:outline-accent/25";
 const labelClass = "mb-2 block text-[15px] font-semibold text-heading";

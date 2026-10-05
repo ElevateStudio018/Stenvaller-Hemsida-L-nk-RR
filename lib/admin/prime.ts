@@ -2,7 +2,7 @@
 import { contrastRatio, hexToChannels } from "@/lib/site/theme.ts";
 
 export const DEFAULT_PRIME = "#1C2817";
-const STORAGE_KEY = "markmontage-admin-prime";
+const STORAGE_KEY = "stenvaller-admin-prime";
 
 /** White or near-black, whichever reads better on the prime colour. */
 export function primeContrast(hex: string): string {

@@ -41,7 +41,7 @@ export function PreviewPane({ draft, target, className = "" }: { draft: SiteData
   const post = useCallback(() => {
     cancelAnimationFrame(frame.current);
     frame.current = requestAnimationFrame(() => {
-      const message: PreviewMessage = { type: "markmontage-preview", ...latest.current };
+      const message: PreviewMessage = { type: "stenvaller-preview", ...latest.current };
       frameRef.current?.contentWindow?.postMessage(message, window.location.origin);
     });
   }, []);

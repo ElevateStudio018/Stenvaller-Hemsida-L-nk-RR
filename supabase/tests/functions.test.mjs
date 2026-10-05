@@ -260,7 +260,7 @@ await test("approving resets to the original after a backup; the link then stops
   assert.equal(res.status, 200, html);
   assert.match(html, /Godkänt/);
   const site = (await call("/rest/v1/site_snapshot?select=data,version", { method: "GET" })).json[0];
-  assert.equal(site.data.pages.items.hem.sections.items.hero.heading, "Mark- och grundarbeten i Kungälv & Göteborg");
+  assert.equal(site.data.pages.items.hem.sections.items.hero.heading, "Fastighetsskötsel och utemiljö året runt i Stenungsund");
   const history = (await call("/rest/v1/rpc/revision_list", { token: adminToken, body: {} })).json;
   assert.equal(history[0].source, "reset");
   assert.equal(history[1].source, "backup");
@@ -316,7 +316,7 @@ await test("ai: a question is answered at no cost, streaming the reply", async (
   assert.equal(sent.body.model, "claude-opus-5-5");
   assert.equal(sent.body.fallbacks, "default");
   assert.equal(sent.body.output_config.format.type, "json_schema");
-  assert.match(sent.body.system[1].text, /Markmontage BEAB AB/);
+  assert.match(sent.body.system[1].text, /Stenvaller Entreprenad AB/);
 });
 
 let proposal;

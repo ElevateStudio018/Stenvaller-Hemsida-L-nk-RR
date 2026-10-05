@@ -82,6 +82,8 @@ export const contentIcons = [
   "Zap",
   "TreePine",
   "Fence",
+  "Snowflake",
+  "Sparkles",
 ] as const;
 export const contentIconSchema = z.enum(contentIcons);
 export type ContentIcon = z.infer<typeof contentIconSchema>;

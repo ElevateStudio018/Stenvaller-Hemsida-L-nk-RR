@@ -7,7 +7,7 @@ let client: SupabaseClient | null = null;
 export function supabase(): SupabaseClient {
   if (!isConnected) throw new Error("The admin is not connected to Supabase");
   client ??= createClient(supabaseUrl, supabaseAnonKey, {
-    auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true, flowType: "implicit", storageKey: "markmontage-admin" },
+    auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true, flowType: "implicit", storageKey: "stenvaller-admin" },
   });
   return client;
 }
