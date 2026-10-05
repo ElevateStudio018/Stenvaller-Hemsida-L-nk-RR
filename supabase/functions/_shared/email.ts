@@ -31,10 +31,10 @@ export const block = {
 };
 
 function html(mail: Mail): string {
-  return `<!doctype html><html lang="sv"><body style="margin:0;background:#E4E3DC;font-family:Figtree,Arial,sans-serif">
+  return `<!doctype html><html lang="sv"><body style="margin:0;background:#E6E9EE;font-family:Figtree,Arial,sans-serif">
 <table role="presentation" style="width:100%;border-collapse:collapse"><tr><td style="padding:24px 12px">
-<table role="presentation" style="max-width:560px;margin:0 auto;border-collapse:collapse;background:#F3F2EC">
-<tr><td style="background:#26382B;padding:18px 28px;color:#ffffff;font-size:15px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase">Stenvaller · Adminpanel</td></tr>
+<table role="presentation" style="max-width:560px;margin:0 auto;border-collapse:collapse;background:#F4F6F9">
+<tr><td style="background:#14284B;padding:18px 28px;color:#ffffff;font-size:15px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase">Stenvaller · Adminpanel</td></tr>
 <tr><td style="padding:28px">${mail.blocks.join("")}</td></tr>
 </table></td></tr></table></body></html>`;
 }

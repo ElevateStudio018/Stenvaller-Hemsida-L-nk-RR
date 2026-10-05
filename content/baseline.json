@@ -2,41 +2,41 @@
   "schemaVersion": 1,
   "theme": {
     "colors": {
-      "primary": "#161616",
-      "secondary": "#0B0B0B",
-      "accent": "#EA580C",
-      "background": "#F3F1EC",
-      "surface": "#FFFFFF",
-      "text": "#2A2A2A",
-      "heading": "#111111",
-      "muted": "#5E5A54",
-      "subtle": "#C9C4BB",
-      "border": "#111111",
+      "primary": "#14284B",
+      "secondary": "#0C1A33",
+      "accent": "#24508F",
+      "background": "#E6E9EE",
+      "surface": "#F4F6F9",
+      "text": "#2F3640",
+      "heading": "#16202E",
+      "muted": "#5A6270",
+      "subtle": "#B3BAC5",
+      "border": "#16202E",
       "input": "#FFFFFF",
-      "link": "#111111",
-      "button": "#C2410C",
-      "buttonHover": "#9A3412",
+      "link": "#16202E",
+      "button": "#14284B",
+      "buttonHover": "#0C1A33",
       "buttonText": "#FFFFFF",
-      "navigation": "#FFFFFF",
-      "navigationText": "#111111",
-      "footer": "#111111",
+      "navigation": "#14284B",
+      "navigationText": "#FFFFFF",
+      "footer": "#14284B",
       "footerText": "#FFFFFF",
       "onPrimary": "#FFFFFF",
-      "success": "#166534",
+      "success": "#14284B",
       "warning": "#B45309",
       "error": "#B91C1C"
     },
     "fonts": {
       "heading": {
-        "family": "Barlow Condensed",
+        "family": "Figtree",
         "category": "sans-serif"
       },
       "body": {
-        "family": "Barlow",
+        "family": "Figtree",
         "category": "sans-serif"
       },
       "button": {
-        "family": "Barlow Condensed",
+        "family": "Figtree",
         "category": "sans-serif"
       }
     }
@@ -982,11 +982,11 @@
           "order": [
             "hero",
             "tjanster",
-            "en-kontakt",
             "aret-runt",
-            "process",
+            "en-kontakt",
             "kunder",
             "om-oss",
+            "process",
             "faq",
             "kontakt",
             "karta"
@@ -997,8 +997,8 @@
               "hidden": false,
               "anchor": "",
               "label": "",
-              "eyebrow": "Stora Höga · Stenungsund med omnejd",
-              "heading": "Fastighet, mark och utemiljö – året runt",
+              "eyebrow": "Stenvaller Entreprenad AB · Stora Höga",
+              "heading": "Fastighetsskötsel och utemiljö året runt i Stenungsund",
               "image": {
                 "src": "https://images.pexels.com/photos/6728926/pexels-photo-6728926.jpeg?auto=compress&cs=tinysrgb&w=1600",
                 "variants": [
@@ -1040,7 +1040,7 @@
                 "label": "Så går det till",
                 "href": "#process"
               },
-              "cardLinkPrefix": "Läs mer"
+              "cardLinkPrefix": "Läs mer om"
             },
             "aret-runt": {
               "type": "uppdragCarousel",

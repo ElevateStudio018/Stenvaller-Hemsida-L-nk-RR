@@ -12,7 +12,7 @@ const sideClasses = {
 
 /** Thin outline pill; wrapped labels stay left-aligned like the single-line ones. */
 const promoPillClasses =
-  "mt-6 inline-flex max-w-full items-center border-[1.5px] border-on-primary px-8 py-4 text-left text-label uppercase text-on-primary transition-colors duration-200 hover:bg-on-primary hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-on-primary";
+  "mt-6 inline-flex max-w-full items-center rounded-md border-[1.5px] border-on-primary px-8 py-4 text-left text-label uppercase text-on-primary transition-colors duration-200 hover:bg-on-primary hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-on-primary";
 
 export function PromoSection({ section }: SectionProps<"promo">) {
   return (
@@ -35,8 +35,7 @@ export function PromoSection({ section }: SectionProps<"promo">) {
               <div
                 className={`relative mx-2 -mt-12 overflow-hidden bg-primary px-8 pb-8 pt-7 text-on-primary sm:mx-6 lg:-mt-48 lg:w-[46%] lg:p-12 ${classes.box}`}
               >
-                <Stripes className={`pointer-events-none absolute h-40 w-40 rotate-0 text-accent/40 ${classes.pattern}`} />
-                <span aria-hidden="true" className="absolute inset-y-0 left-0 w-1.5 bg-accent" />
+                <Stripes className={`pointer-events-none absolute h-48 w-48 text-on-primary/[0.08] ${classes.pattern}`} />
                 <div className="relative">
                   <h2 className="text-h2 lg:text-[38px] lg:leading-[1.12]">{box.heading}</h2>
                   {box.text && <p className="mt-3 text-copy lg:mt-4 lg:text-lead">{box.text}</p>}

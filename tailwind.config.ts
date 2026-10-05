@@ -52,14 +52,14 @@ const config: Config = {
       // Mobile sizes are width-matched against the reference screenshots (Figtree equivalents):
       // 17px body with tight ~1.12 leading, 29px section headings, 17px uppercase links.
       fontSize: {
-        display: ["38px", { lineHeight: "1.02", fontWeight: "800" }],
-        "display-lg": ["72px", { lineHeight: "0.98", fontWeight: "800" }],
-        h2: ["34px", { lineHeight: "1.02", fontWeight: "800" }],
-        "h2-lg": ["56px", { lineHeight: "1", fontWeight: "800" }],
-        h3: ["24px", { lineHeight: "1.1", fontWeight: "700" }],
+        display: ["33px", { lineHeight: "1.15", letterSpacing: "-0.01em", fontWeight: "600" }],
+        "display-lg": ["60px", { lineHeight: "1.06", letterSpacing: "-0.015em", fontWeight: "600" }],
+        h2: ["29px", { lineHeight: "1.14", letterSpacing: "-0.01em", fontWeight: "600" }],
+        "h2-lg": ["46px", { lineHeight: "1.1", letterSpacing: "-0.015em", fontWeight: "600" }],
+        h3: ["22px", { lineHeight: "1.18", fontWeight: "600" }],
         lead: ["19px", { lineHeight: "1.3" }],
         copy: ["17px", { lineHeight: "1.12" }],
-        label: ["18px", { lineHeight: "1.18", letterSpacing: "0.06em", fontWeight: "700" }],
+        label: ["17px", { lineHeight: "1.18", letterSpacing: "0.03em", fontWeight: "700" }],
         tag: ["13px", { lineHeight: "1", letterSpacing: "0.2em", fontWeight: "700" }],
         stat: ["50px", { lineHeight: "1", letterSpacing: "-0.01em", fontWeight: "800" }],
       },
@@ -69,17 +69,16 @@ const config: Config = {
       },
       keyframes: {
         "fade-up": {
-          "0%": { opacity: "0", transform: "translateX(-24px)" },
+          "0%": { opacity: "0", transform: "translateY(20px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
         "modal-in": {
           "0%": { opacity: "0", transform: "scale(0.96)" },
           "100%": { opacity: "1", transform: "scale(1)" },
         },
-        // Slides in from the left while a clip opens from the left edge, like a sign being pulled into place.
         rise: {
-          "0%": { opacity: "0", transform: "translateX(-28px)", clipPath: "inset(-40px 100% -40px -40px)" },
-          "100%": { opacity: "1", transform: "none", clipPath: "inset(-40px -40px -40px -40px)" },
+          "0%": { opacity: "0", transform: "translateY(16px)" },
+          "100%": { opacity: "1", transform: "none" },
         },
         // A short bright stretch running down a thin line, then a pause before the next.
         "scroll-cue": {

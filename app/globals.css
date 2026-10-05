@@ -23,13 +23,6 @@
     font-family: var(--font-heading);
   }
 
-  /* Page and section headings in capitals, like the STEAB lettering. */
-  h1,
-  h2 {
-    text-transform: uppercase;
-    letter-spacing: 0.005em;
-  }
-
   * {
     overflow-wrap: break-word;
   }
@@ -50,21 +43,16 @@
   }
 }
 
-/* The site's diagonal stripes in the accent colour, as a band (under the header, over the footer, at the foot of the hero). */
-.stripe-band {
-  background-image: repeating-linear-gradient(-45deg, rgb(var(--c-accent)) 0 10px, transparent 10px 20px);
-}
-
-/* Under section headings: the line with a V-shaped notch from the foot of the logo, drawn in the accent colour. */
+/* Under section headings: the line with a V-shaped notch from the foot of the STEAB logo, in the accent colour. */
 .text-h2::after {
   content: "";
   display: block;
-  width: 92px;
-  height: 12px;
-  margin-top: 0.45em;
+  width: 72px;
+  height: 10px;
+  margin-top: 0.5em;
   background-color: rgb(var(--c-accent));
-  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 92 12'%3E%3Cpath d='M0 2.5H38L46 10L54 2.5H92' fill='none' stroke='%23000' stroke-width='3.5'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
-  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 92 12'%3E%3Cpath d='M0 2.5H38L46 10L54 2.5H92' fill='none' stroke='%23000' stroke-width='3.5'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 72 10'%3E%3Cpath d='M0 2H29L36 8.5L43 2H72' fill='none' stroke='%23000' stroke-width='2.5'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 72 10'%3E%3Cpath d='M0 2H29L36 8.5L43 2H72' fill='none' stroke='%23000' stroke-width='2.5'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
 }
 
 .text-center .text-h2::after,
@@ -111,7 +99,7 @@
       animation-timeline: view();
     }
 
-    /* The notch line under a heading draws out from the left as the heading scrolls into view. */
+    /* The notch line draws out from the left as its heading scrolls into view. */
     .text-h2::after {
       transform-origin: left;
       animation: notch-draw linear both;
@@ -121,12 +109,6 @@
 
     .text-center .text-h2::after {
       transform-origin: center;
-    }
-
-    /* The stripes under the header slide sideways as the page scrolls. */
-    .stripe-scroll {
-      animation: stripe-slide linear both;
-      animation-timeline: scroll(root);
     }
 
     .header-shadow {
@@ -155,15 +137,6 @@
 @keyframes notch-draw {
   from {
     transform: scaleX(0);
-  }
-  to {
-    transform: scaleX(1);
-  }
-}
-
-@keyframes stripe-slide {
-  to {
-    background-position: 600px 0;
   }
 }
 

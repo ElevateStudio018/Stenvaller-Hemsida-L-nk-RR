@@ -28,13 +28,12 @@ export function Footer({ site }: { site: SiteData }) {
 
   return (
     <footer className="relative overflow-hidden bg-footer text-footer-text">
-      {/* The site's diagonal stripes: a band in the accent colour along the top, faint over the rest of the footer. */}
+      {/* Faint diagonal stripes tiling over the whole footer. */}
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-0 bg-repeat opacity-[0.045]"
+        className="pointer-events-none absolute inset-0 bg-repeat opacity-[0.04]"
         style={{ backgroundImage: `url(${hatch.src})`, backgroundSize: `${hatch.width}px ${hatch.height}px` }}
       />
-      <div aria-hidden="true" className="stripe-band relative h-2.5" />
 
       <div className="relative mx-auto max-w-content px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
         <Reveal className="mb-8 border-b border-footer-text/15 pb-7 lg:mb-10 lg:pb-8">
@@ -101,7 +100,7 @@ export function Footer({ site }: { site: SiteData }) {
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={label}
-                      className="flex h-11 w-11 items-center justify-center border-[1.5px] border-footer-text/30 transition-colors hover:border-footer-text hover:bg-footer-text hover:text-footer"
+                      className="flex h-11 w-11 items-center justify-center rounded-full border-[1.5px] border-footer-text/30 transition-colors hover:border-footer-text hover:bg-footer-text hover:text-footer"
                     >
                       <Icon name={icon} strokeWidth={2} className="h-5 w-5" />
                     </a>

@@ -6,19 +6,16 @@ import { Icon } from "./Icon";
  */
 export type ButtonVariant = "solid" | "outline" | "on-nav" | "on-footer" | "on-primary";
 
-// Square-cut buttons with the lower right corner cut off on the slant, like the stencilled STEAB letters. Pressing a
-// button squeezes it in a touch.
+// Pressing a button squeezes it in a touch.
 const pillBase =
-  "inline-flex items-center justify-center gap-2 px-8 py-4 text-center text-label uppercase transition duration-200 active:scale-[0.97] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2";
-
-const cutCorner = "[clip-path:polygon(0_0,100%_0,100%_calc(100%-14px),calc(100%-14px)_100%,0_100%)]";
+  "inline-flex items-center justify-center gap-2 rounded-md px-8 py-4 text-center text-label uppercase transition duration-200 active:scale-[0.97] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2";
 
 const pillVariants: Record<ButtonVariant, string> = {
-  solid: `bg-button text-button-text hover:bg-button-hover focus-visible:outline-button ${cutCorner}`,
-  outline: "border-2 border-button text-button hover:bg-button hover:text-button-text focus-visible:outline-button",
-  "on-nav": "border-2 border-nav-text text-nav-text hover:bg-nav-text hover:text-nav focus-visible:outline-nav-text",
-  "on-footer": "border-2 border-footer-text text-footer-text hover:bg-footer-text hover:text-footer focus-visible:outline-footer-text",
-  "on-primary": "border-2 border-on-primary text-on-primary hover:bg-on-primary hover:text-primary focus-visible:outline-on-primary",
+  solid: "bg-button text-button-text hover:bg-button-hover focus-visible:outline-button",
+  outline: "border-[1.5px] border-button text-button hover:bg-button hover:text-button-text focus-visible:outline-button",
+  "on-nav": "border-[1.5px] border-nav-text text-nav-text hover:bg-nav-text hover:text-nav focus-visible:outline-nav-text",
+  "on-footer": "border-[1.5px] border-footer-text text-footer-text hover:bg-footer-text hover:text-footer focus-visible:outline-footer-text",
+  "on-primary": "border-[1.5px] border-on-primary text-on-primary hover:bg-on-primary hover:text-primary focus-visible:outline-on-primary",
 };
 
 export function buttonClasses(variant: ButtonVariant = "solid", className = ""): string {
