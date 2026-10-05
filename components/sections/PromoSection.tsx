@@ -1,18 +1,18 @@
 import { SiteLink } from "../SiteLink";
-import { Topography } from "../Topography";
+import { Stripes } from "../Stripes";
 import { list } from "@/lib/site/collection.ts";
 import { focusStyle, imageProps } from "@/lib/site/images.ts";
 import type { SectionProps } from "./types";
 
-// Which side the box sits on (desktop) and where the contour pattern is anchored.
+// Which side the box sits on (desktop) and which corner the stripes fill.
 const sideClasses = {
-  left: { box: "lg:mr-auto lg:ml-12", pattern: "left-[36%] top-full" },
-  right: { box: "lg:ml-auto lg:mr-12", pattern: "left-[76%] top-[88%]" },
+  left: { box: "lg:mr-auto lg:ml-12", pattern: "-right-10 -top-10" },
+  right: { box: "lg:ml-auto lg:mr-12", pattern: "-left-10 -bottom-10" },
 } as const;
 
 /** Thin outline pill; wrapped labels stay left-aligned like the single-line ones. */
 const promoPillClasses =
-  "mt-6 inline-flex max-w-full items-center rounded-full border-[1.5px] border-on-primary px-8 py-4 text-left text-label uppercase text-on-primary transition-colors duration-200 hover:bg-on-primary hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-on-primary";
+  "mt-6 inline-flex max-w-full items-center border-[1.5px] border-on-primary px-8 py-4 text-left text-label uppercase text-on-primary transition-colors duration-200 hover:bg-on-primary hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-on-primary";
 
 export function PromoSection({ section }: SectionProps<"promo">) {
   return (
@@ -35,9 +35,8 @@ export function PromoSection({ section }: SectionProps<"promo">) {
               <div
                 className={`relative mx-2 -mt-12 overflow-hidden bg-primary px-8 pb-8 pt-7 text-on-primary sm:mx-6 lg:-mt-48 lg:w-[46%] lg:p-12 ${classes.box}`}
               >
-                <Topography
-                  className={`pointer-events-none absolute h-[560px] w-[560px] -translate-x-1/2 -translate-y-1/2 text-on-primary/[0.09] ${classes.pattern}`}
-                />
+                <Stripes className={`pointer-events-none absolute h-40 w-40 rotate-0 text-accent/40 ${classes.pattern}`} />
+                <span aria-hidden="true" className="absolute inset-y-0 left-0 w-1.5 bg-accent" />
                 <div className="relative">
                   <h2 className="text-h2 lg:text-[38px] lg:leading-[1.12]">{box.heading}</h2>
                   {box.text && <p className="mt-3 text-copy lg:mt-4 lg:text-lead">{box.text}</p>}

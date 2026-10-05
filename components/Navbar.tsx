@@ -61,6 +61,8 @@ export function Navbar({ content }: { content: NavContent }) {
   return (
     <>
       <header className="header-shadow fixed inset-x-0 top-0 z-40 bg-nav">
+        {/* The striped band under the bar, sliding sideways as the page scrolls. */}
+        <div aria-hidden="true" className="stripe-band stripe-scroll absolute inset-x-0 top-full h-1.5" />
         <div className="mx-auto flex h-16 max-w-content items-center justify-between px-4 sm:h-20 sm:px-6 lg:px-8">
           <Link href="/" aria-label={content.labels.homeLink} className="flex min-h-12 items-center text-nav-text">
             <Wordmark content={content.logo} />

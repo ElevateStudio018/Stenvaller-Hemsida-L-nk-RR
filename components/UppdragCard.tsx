@@ -16,11 +16,12 @@ export function UppdragCard({ item }: { item: Uppdrag }) {
         transition="transform 700ms ease-out"
         style={focusStyle(item.image)}
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-black/25" aria-hidden="true" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-black/10" aria-hidden="true" />
       <span className="absolute left-0 top-0 bg-accent px-4 py-[11px] text-tag uppercase text-on-primary">{item.tag}</span>
-      <h3 className="absolute inset-x-0 bottom-8 px-6 text-center text-[26px] font-semibold leading-tight text-white sm:bottom-10">
-        {item.title}
-      </h3>
+      <div className="absolute inset-x-0 bottom-0 px-6 pb-7 sm:pb-9">
+        <span aria-hidden="true" className="mb-4 block h-1 w-10 bg-accent transition-[width] duration-500 ease-out group-hover:w-24" />
+        <h3 className="font-heading text-[28px] font-extrabold uppercase leading-[1.02] text-white">{item.title}</h3>
+      </div>
     </SiteLink>
   );
 }

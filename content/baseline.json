@@ -2,41 +2,41 @@
   "schemaVersion": 1,
   "theme": {
     "colors": {
-      "primary": "#26382B",
-      "secondary": "#18251C",
-      "accent": "#3F5A36",
-      "background": "#E4E3DC",
-      "surface": "#F3F2EC",
-      "text": "#333333",
-      "heading": "#1F241F",
-      "muted": "#5F625B",
-      "subtle": "#B4B5AD",
-      "border": "#1F241F",
+      "primary": "#161616",
+      "secondary": "#0B0B0B",
+      "accent": "#EA580C",
+      "background": "#F3F1EC",
+      "surface": "#FFFFFF",
+      "text": "#2A2A2A",
+      "heading": "#111111",
+      "muted": "#5E5A54",
+      "subtle": "#C9C4BB",
+      "border": "#111111",
       "input": "#FFFFFF",
-      "link": "#1F241F",
-      "button": "#26382B",
-      "buttonHover": "#18251C",
+      "link": "#111111",
+      "button": "#C2410C",
+      "buttonHover": "#9A3412",
       "buttonText": "#FFFFFF",
-      "navigation": "#26382B",
-      "navigationText": "#FFFFFF",
-      "footer": "#26382B",
+      "navigation": "#FFFFFF",
+      "navigationText": "#111111",
+      "footer": "#111111",
       "footerText": "#FFFFFF",
       "onPrimary": "#FFFFFF",
-      "success": "#26382B",
+      "success": "#166534",
       "warning": "#B45309",
       "error": "#B91C1C"
     },
     "fonts": {
       "heading": {
-        "family": "Figtree",
+        "family": "Barlow Condensed",
         "category": "sans-serif"
       },
       "body": {
-        "family": "Figtree",
+        "family": "Barlow",
         "category": "sans-serif"
       },
       "button": {
-        "family": "Figtree",
+        "family": "Barlow Condensed",
         "category": "sans-serif"
       }
     }
@@ -353,26 +353,30 @@
         ],
         "icon": "Building2",
         "image": {
-          "src": "/photos/stenvaller-fastighet.webp",
+          "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=1600",
           "variants": [
             {
               "width": 480,
-              "src": "/photos/stenvaller-fastighet-480.webp"
+              "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=480"
             },
             {
               "width": 800,
-              "src": "/photos/stenvaller-fastighet-800.webp"
+              "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=800"
             },
             {
               "width": 1200,
-              "src": "/photos/stenvaller-fastighet-1200.webp"
+              "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=1200"
             },
             {
               "width": 1600,
-              "src": "/photos/stenvaller-fastighet.webp"
+              "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            },
+            {
+              "width": 2000,
+              "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=2000"
             }
           ],
-          "alt": ""
+          "alt": "Flerbostadshus med en grön innergård"
         },
         "seo": {
           "title": "Fastighetsskötsel & fastighetsservice i Stenungsund",
@@ -391,26 +395,30 @@
         ],
         "icon": "Leaf",
         "image": {
-          "src": "/photos/stenvaller-gronyta.webp",
+          "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=1600",
           "variants": [
             {
               "width": 480,
-              "src": "/photos/stenvaller-gronyta-480.webp"
+              "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=480"
             },
             {
               "width": 800,
-              "src": "/photos/stenvaller-gronyta-800.webp"
+              "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=800"
             },
             {
               "width": 1200,
-              "src": "/photos/stenvaller-gronyta-1200.webp"
+              "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=1200"
             },
             {
               "width": 1600,
-              "src": "/photos/stenvaller-gronyta.webp"
+              "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            },
+            {
+              "width": 2000,
+              "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=2000"
             }
           ],
-          "alt": ""
+          "alt": "Gräsklippning av en gräsmatta"
         },
         "seo": {
           "title": "Grönyteskötsel & gräsklippning i Stenungsund",
@@ -429,26 +437,30 @@
         ],
         "icon": "TreePine",
         "image": {
-          "src": "/photos/stenvaller-rojning.webp",
+          "src": "https://images.pexels.com/photos/4206115/pexels-photo-4206115.jpeg?auto=compress&cs=tinysrgb&w=1600",
           "variants": [
             {
               "width": 480,
-              "src": "/photos/stenvaller-rojning-480.webp"
+              "src": "https://images.pexels.com/photos/4206115/pexels-photo-4206115.jpeg?auto=compress&cs=tinysrgb&w=480"
             },
             {
               "width": 800,
-              "src": "/photos/stenvaller-rojning-800.webp"
+              "src": "https://images.pexels.com/photos/4206115/pexels-photo-4206115.jpeg?auto=compress&cs=tinysrgb&w=800"
             },
             {
               "width": 1200,
-              "src": "/photos/stenvaller-rojning-1200.webp"
+              "src": "https://images.pexels.com/photos/4206115/pexels-photo-4206115.jpeg?auto=compress&cs=tinysrgb&w=1200"
             },
             {
               "width": 1600,
-              "src": "/photos/stenvaller-rojning.webp"
+              "src": "https://images.pexels.com/photos/4206115/pexels-photo-4206115.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            },
+            {
+              "width": 2000,
+              "src": "https://images.pexels.com/photos/4206115/pexels-photo-4206115.jpeg?auto=compress&cs=tinysrgb&w=2000"
             }
           ],
-          "alt": ""
+          "alt": "Röjning med motorsåg i skogen"
         },
         "seo": {
           "title": "Röjning i Stenungsund",
@@ -466,26 +478,30 @@
         ],
         "icon": "Shovel",
         "image": {
-          "src": "/photos/stenvaller-mark.webp",
+          "src": "https://images.pexels.com/photos/4894617/pexels-photo-4894617.jpeg?auto=compress&cs=tinysrgb&w=1600",
           "variants": [
             {
               "width": 480,
-              "src": "/photos/stenvaller-mark-480.webp"
+              "src": "https://images.pexels.com/photos/4894617/pexels-photo-4894617.jpeg?auto=compress&cs=tinysrgb&w=480"
             },
             {
               "width": 800,
-              "src": "/photos/stenvaller-mark-800.webp"
+              "src": "https://images.pexels.com/photos/4894617/pexels-photo-4894617.jpeg?auto=compress&cs=tinysrgb&w=800"
             },
             {
               "width": 1200,
-              "src": "/photos/stenvaller-mark-1200.webp"
+              "src": "https://images.pexels.com/photos/4894617/pexels-photo-4894617.jpeg?auto=compress&cs=tinysrgb&w=1200"
             },
             {
               "width": 1600,
-              "src": "/photos/stenvaller-mark.webp"
+              "src": "https://images.pexels.com/photos/4894617/pexels-photo-4894617.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            },
+            {
+              "width": 2000,
+              "src": "https://images.pexels.com/photos/4894617/pexels-photo-4894617.jpeg?auto=compress&cs=tinysrgb&w=2000"
             }
           ],
-          "alt": ""
+          "alt": "Markarbete med kratta"
         },
         "seo": {
           "title": "Markskötsel & enklare markarbeten i Stenungsund",
@@ -504,26 +520,30 @@
         ],
         "icon": "Snowflake",
         "image": {
-          "src": "/photos/stenvaller-vinter.webp",
+          "src": "https://images.pexels.com/photos/19374522/pexels-photo-19374522.jpeg?auto=compress&cs=tinysrgb&w=1600",
           "variants": [
             {
               "width": 480,
-              "src": "/photos/stenvaller-vinter-480.webp"
+              "src": "https://images.pexels.com/photos/19374522/pexels-photo-19374522.jpeg?auto=compress&cs=tinysrgb&w=480"
             },
             {
               "width": 800,
-              "src": "/photos/stenvaller-vinter-800.webp"
+              "src": "https://images.pexels.com/photos/19374522/pexels-photo-19374522.jpeg?auto=compress&cs=tinysrgb&w=800"
             },
             {
               "width": 1200,
-              "src": "/photos/stenvaller-vinter-1200.webp"
+              "src": "https://images.pexels.com/photos/19374522/pexels-photo-19374522.jpeg?auto=compress&cs=tinysrgb&w=1200"
             },
             {
               "width": 1600,
-              "src": "/photos/stenvaller-vinter.webp"
+              "src": "https://images.pexels.com/photos/19374522/pexels-photo-19374522.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            },
+            {
+              "width": 2000,
+              "src": "https://images.pexels.com/photos/19374522/pexels-photo-19374522.jpeg?auto=compress&cs=tinysrgb&w=2000"
             }
           ],
-          "alt": ""
+          "alt": "Snöskottning av en gångväg"
         },
         "seo": {
           "title": "Snöröjning & vinterunderhåll i Stenungsund",
@@ -542,26 +562,30 @@
         ],
         "icon": "Sparkles",
         "image": {
-          "src": "/photos/stenvaller-renhallning.webp",
+          "src": "https://images.pexels.com/photos/6647114/pexels-photo-6647114.jpeg?auto=compress&cs=tinysrgb&w=1600",
           "variants": [
             {
               "width": 480,
-              "src": "/photos/stenvaller-renhallning-480.webp"
+              "src": "https://images.pexels.com/photos/6647114/pexels-photo-6647114.jpeg?auto=compress&cs=tinysrgb&w=480"
             },
             {
               "width": 800,
-              "src": "/photos/stenvaller-renhallning-800.webp"
+              "src": "https://images.pexels.com/photos/6647114/pexels-photo-6647114.jpeg?auto=compress&cs=tinysrgb&w=800"
             },
             {
               "width": 1200,
-              "src": "/photos/stenvaller-renhallning-1200.webp"
+              "src": "https://images.pexels.com/photos/6647114/pexels-photo-6647114.jpeg?auto=compress&cs=tinysrgb&w=1200"
             },
             {
               "width": 1600,
-              "src": "/photos/stenvaller-renhallning.webp"
+              "src": "https://images.pexels.com/photos/6647114/pexels-photo-6647114.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            },
+            {
+              "width": 2000,
+              "src": "https://images.pexels.com/photos/6647114/pexels-photo-6647114.jpeg?auto=compress&cs=tinysrgb&w=2000"
             }
           ],
-          "alt": ""
+          "alt": "Städning av en gata"
         },
         "seo": {
           "title": "Renhållning & skötsel av utemiljö i Stenungsund",
@@ -578,26 +602,30 @@
         ],
         "icon": "Wrench",
         "image": {
-          "src": "/photos/stenvaller-maskin.webp",
+          "src": "https://images.pexels.com/photos/3855478/pexels-photo-3855478.jpeg?auto=compress&cs=tinysrgb&w=1600",
           "variants": [
             {
               "width": 480,
-              "src": "/photos/stenvaller-maskin-480.webp"
+              "src": "https://images.pexels.com/photos/3855478/pexels-photo-3855478.jpeg?auto=compress&cs=tinysrgb&w=480"
             },
             {
               "width": 800,
-              "src": "/photos/stenvaller-maskin-800.webp"
+              "src": "https://images.pexels.com/photos/3855478/pexels-photo-3855478.jpeg?auto=compress&cs=tinysrgb&w=800"
             },
             {
               "width": 1200,
-              "src": "/photos/stenvaller-maskin-1200.webp"
+              "src": "https://images.pexels.com/photos/3855478/pexels-photo-3855478.jpeg?auto=compress&cs=tinysrgb&w=1200"
             },
             {
               "width": 1600,
-              "src": "/photos/stenvaller-maskin.webp"
+              "src": "https://images.pexels.com/photos/3855478/pexels-photo-3855478.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            },
+            {
+              "width": 2000,
+              "src": "https://images.pexels.com/photos/3855478/pexels-photo-3855478.jpeg?auto=compress&cs=tinysrgb&w=2000"
             }
           ],
-          "alt": ""
+          "alt": "Mekaniker som reparerar en maskindel i en verkstad"
         },
         "seo": {
           "title": "Reparation & underhåll av maskiner i Stenungsund",
@@ -625,26 +653,30 @@
         "title": "Gräsklippning och grönyteskötsel",
         "href": "/tjanster/gronyteskotsel",
         "image": {
-          "src": "/photos/stenvaller-gronyta.webp",
+          "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=1600",
           "variants": [
             {
               "width": 480,
-              "src": "/photos/stenvaller-gronyta-480.webp"
+              "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=480"
             },
             {
               "width": 800,
-              "src": "/photos/stenvaller-gronyta-800.webp"
+              "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=800"
             },
             {
               "width": 1200,
-              "src": "/photos/stenvaller-gronyta-1200.webp"
+              "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=1200"
             },
             {
               "width": 1600,
-              "src": "/photos/stenvaller-gronyta.webp"
+              "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            },
+            {
+              "width": 2000,
+              "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=2000"
             }
           ],
-          "alt": ""
+          "alt": "Gräsklippning av en gräsmatta"
         }
       },
       "tradgard": {
@@ -652,26 +684,30 @@
         "title": "Trädgårdsarbete och skötsel av utemiljö",
         "href": "/tjanster/gronyteskotsel",
         "image": {
-          "src": "/photos/stenvaller-utemiljo.webp",
+          "src": "https://images.pexels.com/photos/24595769/pexels-photo-24595769.jpeg?auto=compress&cs=tinysrgb&w=1600",
           "variants": [
             {
               "width": 480,
-              "src": "/photos/stenvaller-utemiljo-480.webp"
+              "src": "https://images.pexels.com/photos/24595769/pexels-photo-24595769.jpeg?auto=compress&cs=tinysrgb&w=480"
             },
             {
               "width": 800,
-              "src": "/photos/stenvaller-utemiljo-800.webp"
+              "src": "https://images.pexels.com/photos/24595769/pexels-photo-24595769.jpeg?auto=compress&cs=tinysrgb&w=800"
             },
             {
               "width": 1200,
-              "src": "/photos/stenvaller-utemiljo-1200.webp"
+              "src": "https://images.pexels.com/photos/24595769/pexels-photo-24595769.jpeg?auto=compress&cs=tinysrgb&w=1200"
             },
             {
               "width": 1600,
-              "src": "/photos/stenvaller-utemiljo.webp"
+              "src": "https://images.pexels.com/photos/24595769/pexels-photo-24595769.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            },
+            {
+              "width": 2000,
+              "src": "https://images.pexels.com/photos/24595769/pexels-photo-24595769.jpeg?auto=compress&cs=tinysrgb&w=2000"
             }
           ],
-          "alt": ""
+          "alt": "Häckklippning med häcksax i en trädgård"
         }
       },
       "lov": {
@@ -679,26 +715,30 @@
         "title": "Lövhantering och röjning",
         "href": "/tjanster/rojning",
         "image": {
-          "src": "/photos/stenvaller-host.webp",
+          "src": "https://images.pexels.com/photos/1623214/pexels-photo-1623214.jpeg?auto=compress&cs=tinysrgb&w=1600",
           "variants": [
             {
               "width": 480,
-              "src": "/photos/stenvaller-host-480.webp"
+              "src": "https://images.pexels.com/photos/1623214/pexels-photo-1623214.jpeg?auto=compress&cs=tinysrgb&w=480"
             },
             {
               "width": 800,
-              "src": "/photos/stenvaller-host-800.webp"
+              "src": "https://images.pexels.com/photos/1623214/pexels-photo-1623214.jpeg?auto=compress&cs=tinysrgb&w=800"
             },
             {
               "width": 1200,
-              "src": "/photos/stenvaller-host-1200.webp"
+              "src": "https://images.pexels.com/photos/1623214/pexels-photo-1623214.jpeg?auto=compress&cs=tinysrgb&w=1200"
             },
             {
               "width": 1600,
-              "src": "/photos/stenvaller-host.webp"
+              "src": "https://images.pexels.com/photos/1623214/pexels-photo-1623214.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            },
+            {
+              "width": 2000,
+              "src": "https://images.pexels.com/photos/1623214/pexels-photo-1623214.jpeg?auto=compress&cs=tinysrgb&w=2000"
             }
           ],
-          "alt": ""
+          "alt": "Lövblåsning på hösten"
         }
       },
       "infor-vintern": {
@@ -706,26 +746,30 @@
         "title": "Förberedelser inför vintersäsongen",
         "href": "/tjanster/snorojning",
         "image": {
-          "src": "/photos/stenvaller-host.webp",
+          "src": "https://images.pexels.com/photos/10559047/pexels-photo-10559047.jpeg?auto=compress&cs=tinysrgb&w=1600",
           "variants": [
             {
               "width": 480,
-              "src": "/photos/stenvaller-host-480.webp"
+              "src": "https://images.pexels.com/photos/10559047/pexels-photo-10559047.jpeg?auto=compress&cs=tinysrgb&w=480"
             },
             {
               "width": 800,
-              "src": "/photos/stenvaller-host-800.webp"
+              "src": "https://images.pexels.com/photos/10559047/pexels-photo-10559047.jpeg?auto=compress&cs=tinysrgb&w=800"
             },
             {
               "width": 1200,
-              "src": "/photos/stenvaller-host-1200.webp"
+              "src": "https://images.pexels.com/photos/10559047/pexels-photo-10559047.jpeg?auto=compress&cs=tinysrgb&w=1200"
             },
             {
               "width": 1600,
-              "src": "/photos/stenvaller-host.webp"
+              "src": "https://images.pexels.com/photos/10559047/pexels-photo-10559047.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            },
+            {
+              "width": 2000,
+              "src": "https://images.pexels.com/photos/10559047/pexels-photo-10559047.jpeg?auto=compress&cs=tinysrgb&w=2000"
             }
           ],
-          "alt": ""
+          "alt": "En hög med höstlöv"
         }
       },
       "snorojning": {
@@ -733,26 +777,30 @@
         "title": "Snöröjning",
         "href": "/tjanster/snorojning",
         "image": {
-          "src": "/photos/stenvaller-vinter.webp",
+          "src": "https://images.pexels.com/photos/19374522/pexels-photo-19374522.jpeg?auto=compress&cs=tinysrgb&w=1600",
           "variants": [
             {
               "width": 480,
-              "src": "/photos/stenvaller-vinter-480.webp"
+              "src": "https://images.pexels.com/photos/19374522/pexels-photo-19374522.jpeg?auto=compress&cs=tinysrgb&w=480"
             },
             {
               "width": 800,
-              "src": "/photos/stenvaller-vinter-800.webp"
+              "src": "https://images.pexels.com/photos/19374522/pexels-photo-19374522.jpeg?auto=compress&cs=tinysrgb&w=800"
             },
             {
               "width": 1200,
-              "src": "/photos/stenvaller-vinter-1200.webp"
+              "src": "https://images.pexels.com/photos/19374522/pexels-photo-19374522.jpeg?auto=compress&cs=tinysrgb&w=1200"
             },
             {
               "width": 1600,
-              "src": "/photos/stenvaller-vinter.webp"
+              "src": "https://images.pexels.com/photos/19374522/pexels-photo-19374522.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            },
+            {
+              "width": 2000,
+              "src": "https://images.pexels.com/photos/19374522/pexels-photo-19374522.jpeg?auto=compress&cs=tinysrgb&w=2000"
             }
           ],
-          "alt": ""
+          "alt": "Snöskottning av en gångväg"
         }
       },
       "gangvagar": {
@@ -760,26 +808,30 @@
         "title": "Skötsel av gångvägar och vinterunderhåll",
         "href": "/tjanster/snorojning",
         "image": {
-          "src": "/photos/stenvaller-vinter.webp",
+          "src": "https://images.pexels.com/photos/6952452/pexels-photo-6952452.jpeg?auto=compress&cs=tinysrgb&w=1600",
           "variants": [
             {
               "width": 480,
-              "src": "/photos/stenvaller-vinter-480.webp"
+              "src": "https://images.pexels.com/photos/6952452/pexels-photo-6952452.jpeg?auto=compress&cs=tinysrgb&w=480"
             },
             {
               "width": 800,
-              "src": "/photos/stenvaller-vinter-800.webp"
+              "src": "https://images.pexels.com/photos/6952452/pexels-photo-6952452.jpeg?auto=compress&cs=tinysrgb&w=800"
             },
             {
               "width": 1200,
-              "src": "/photos/stenvaller-vinter-1200.webp"
+              "src": "https://images.pexels.com/photos/6952452/pexels-photo-6952452.jpeg?auto=compress&cs=tinysrgb&w=1200"
             },
             {
               "width": 1600,
-              "src": "/photos/stenvaller-vinter.webp"
+              "src": "https://images.pexels.com/photos/6952452/pexels-photo-6952452.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            },
+            {
+              "width": 2000,
+              "src": "https://images.pexels.com/photos/6952452/pexels-photo-6952452.jpeg?auto=compress&cs=tinysrgb&w=2000"
             }
           ],
-          "alt": ""
+          "alt": "Snö skottas bort från en trottoar"
         }
       },
       "fastighetsservice": {
@@ -787,26 +839,30 @@
         "title": "Fastighetsservice och löpande underhåll",
         "href": "/tjanster/fastighetsskotsel",
         "image": {
-          "src": "/photos/stenvaller-fastighet.webp",
+          "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=1600",
           "variants": [
             {
               "width": 480,
-              "src": "/photos/stenvaller-fastighet-480.webp"
+              "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=480"
             },
             {
               "width": 800,
-              "src": "/photos/stenvaller-fastighet-800.webp"
+              "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=800"
             },
             {
               "width": 1200,
-              "src": "/photos/stenvaller-fastighet-1200.webp"
+              "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=1200"
             },
             {
               "width": 1600,
-              "src": "/photos/stenvaller-fastighet.webp"
+              "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            },
+            {
+              "width": 2000,
+              "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=2000"
             }
           ],
-          "alt": ""
+          "alt": "Flerbostadshus med en grön innergård"
         }
       },
       "markarbeten": {
@@ -814,26 +870,30 @@
         "title": "Mindre markarbeten och markskötsel",
         "href": "/tjanster/markskotsel",
         "image": {
-          "src": "/photos/stenvaller-mark.webp",
+          "src": "https://images.pexels.com/photos/4894617/pexels-photo-4894617.jpeg?auto=compress&cs=tinysrgb&w=1600",
           "variants": [
             {
               "width": 480,
-              "src": "/photos/stenvaller-mark-480.webp"
+              "src": "https://images.pexels.com/photos/4894617/pexels-photo-4894617.jpeg?auto=compress&cs=tinysrgb&w=480"
             },
             {
               "width": 800,
-              "src": "/photos/stenvaller-mark-800.webp"
+              "src": "https://images.pexels.com/photos/4894617/pexels-photo-4894617.jpeg?auto=compress&cs=tinysrgb&w=800"
             },
             {
               "width": 1200,
-              "src": "/photos/stenvaller-mark-1200.webp"
+              "src": "https://images.pexels.com/photos/4894617/pexels-photo-4894617.jpeg?auto=compress&cs=tinysrgb&w=1200"
             },
             {
               "width": 1600,
-              "src": "/photos/stenvaller-mark.webp"
+              "src": "https://images.pexels.com/photos/4894617/pexels-photo-4894617.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            },
+            {
+              "width": 2000,
+              "src": "https://images.pexels.com/photos/4894617/pexels-photo-4894617.jpeg?auto=compress&cs=tinysrgb&w=2000"
             }
           ],
-          "alt": ""
+          "alt": "Markarbete med kratta"
         }
       },
       "renhallning": {
@@ -841,26 +901,30 @@
         "title": "Renhållning",
         "href": "/tjanster/renhallning",
         "image": {
-          "src": "/photos/stenvaller-renhallning.webp",
+          "src": "https://images.pexels.com/photos/6647114/pexels-photo-6647114.jpeg?auto=compress&cs=tinysrgb&w=1600",
           "variants": [
             {
               "width": 480,
-              "src": "/photos/stenvaller-renhallning-480.webp"
+              "src": "https://images.pexels.com/photos/6647114/pexels-photo-6647114.jpeg?auto=compress&cs=tinysrgb&w=480"
             },
             {
               "width": 800,
-              "src": "/photos/stenvaller-renhallning-800.webp"
+              "src": "https://images.pexels.com/photos/6647114/pexels-photo-6647114.jpeg?auto=compress&cs=tinysrgb&w=800"
             },
             {
               "width": 1200,
-              "src": "/photos/stenvaller-renhallning-1200.webp"
+              "src": "https://images.pexels.com/photos/6647114/pexels-photo-6647114.jpeg?auto=compress&cs=tinysrgb&w=1200"
             },
             {
               "width": 1600,
-              "src": "/photos/stenvaller-renhallning.webp"
+              "src": "https://images.pexels.com/photos/6647114/pexels-photo-6647114.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            },
+            {
+              "width": 2000,
+              "src": "https://images.pexels.com/photos/6647114/pexels-photo-6647114.jpeg?auto=compress&cs=tinysrgb&w=2000"
             }
           ],
-          "alt": ""
+          "alt": "Städning av en gata"
         }
       },
       "maskiner": {
@@ -868,26 +932,30 @@
         "title": "Reparation och underhåll av maskiner",
         "href": "/tjanster/maskinservice",
         "image": {
-          "src": "/photos/stenvaller-maskin.webp",
+          "src": "https://images.pexels.com/photos/3855478/pexels-photo-3855478.jpeg?auto=compress&cs=tinysrgb&w=1600",
           "variants": [
             {
               "width": 480,
-              "src": "/photos/stenvaller-maskin-480.webp"
+              "src": "https://images.pexels.com/photos/3855478/pexels-photo-3855478.jpeg?auto=compress&cs=tinysrgb&w=480"
             },
             {
               "width": 800,
-              "src": "/photos/stenvaller-maskin-800.webp"
+              "src": "https://images.pexels.com/photos/3855478/pexels-photo-3855478.jpeg?auto=compress&cs=tinysrgb&w=800"
             },
             {
               "width": 1200,
-              "src": "/photos/stenvaller-maskin-1200.webp"
+              "src": "https://images.pexels.com/photos/3855478/pexels-photo-3855478.jpeg?auto=compress&cs=tinysrgb&w=1200"
             },
             {
               "width": 1600,
-              "src": "/photos/stenvaller-maskin.webp"
+              "src": "https://images.pexels.com/photos/3855478/pexels-photo-3855478.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            },
+            {
+              "width": 2000,
+              "src": "https://images.pexels.com/photos/3855478/pexels-photo-3855478.jpeg?auto=compress&cs=tinysrgb&w=2000"
             }
           ],
-          "alt": ""
+          "alt": "Mekaniker som reparerar en maskindel i en verkstad"
         }
       }
     }
@@ -914,11 +982,11 @@
           "order": [
             "hero",
             "tjanster",
-            "aret-runt",
             "en-kontakt",
+            "aret-runt",
+            "process",
             "kunder",
             "om-oss",
-            "process",
             "faq",
             "kontakt",
             "karta"
@@ -929,29 +997,33 @@
               "hidden": false,
               "anchor": "",
               "label": "",
-              "eyebrow": "Stenvaller Entreprenad AB · Stora Höga",
-              "heading": "Fastighetsskötsel och utemiljö året runt i Stenungsund",
+              "eyebrow": "Stora Höga · Stenungsund med omnejd",
+              "heading": "Fastighet, mark och utemiljö – året runt",
               "image": {
-                "src": "/photos/stenvaller-hero.webp",
+                "src": "https://images.pexels.com/photos/6728926/pexels-photo-6728926.jpeg?auto=compress&cs=tinysrgb&w=1600",
                 "variants": [
                   {
                     "width": 480,
-                    "src": "/photos/stenvaller-hero-480.webp"
+                    "src": "https://images.pexels.com/photos/6728926/pexels-photo-6728926.jpeg?auto=compress&cs=tinysrgb&w=480"
                   },
                   {
                     "width": 800,
-                    "src": "/photos/stenvaller-hero-800.webp"
+                    "src": "https://images.pexels.com/photos/6728926/pexels-photo-6728926.jpeg?auto=compress&cs=tinysrgb&w=800"
                   },
                   {
                     "width": 1200,
-                    "src": "/photos/stenvaller-hero-1200.webp"
+                    "src": "https://images.pexels.com/photos/6728926/pexels-photo-6728926.jpeg?auto=compress&cs=tinysrgb&w=1200"
                   },
                   {
-                    "width": 1920,
-                    "src": "/photos/stenvaller-hero.webp"
+                    "width": 1600,
+                    "src": "https://images.pexels.com/photos/6728926/pexels-photo-6728926.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                  },
+                  {
+                    "width": 2000,
+                    "src": "https://images.pexels.com/photos/6728926/pexels-photo-6728926.jpeg?auto=compress&cs=tinysrgb&w=2000"
                   }
                 ],
-                "alt": ""
+                "alt": "Gräsklippning med en gräsklippare i en solig trädgård"
               },
               "button": {
                 "label": "Begär offert",
@@ -968,7 +1040,7 @@
                 "label": "Så går det till",
                 "href": "#process"
               },
-              "cardLinkPrefix": "Läs mer om"
+              "cardLinkPrefix": "Läs mer"
             },
             "aret-runt": {
               "type": "uppdragCarousel",
@@ -990,26 +1062,30 @@
               "heading": "En kontakt för fastighet, mark och utemiljö",
               "text": "Vi tar både enstaka uppdrag och återkommande service, så att samma kontakt kan hjälpa till med fastighetens olika behov under året.",
               "image": {
-                "src": "/photos/stenvaller-utemiljo.webp",
+                "src": "https://images.pexels.com/photos/27307398/pexels-photo-27307398.jpeg?auto=compress&cs=tinysrgb&w=1600",
                 "variants": [
                   {
                     "width": 480,
-                    "src": "/photos/stenvaller-utemiljo-480.webp"
+                    "src": "https://images.pexels.com/photos/27307398/pexels-photo-27307398.jpeg?auto=compress&cs=tinysrgb&w=480"
                   },
                   {
                     "width": 800,
-                    "src": "/photos/stenvaller-utemiljo-800.webp"
+                    "src": "https://images.pexels.com/photos/27307398/pexels-photo-27307398.jpeg?auto=compress&cs=tinysrgb&w=800"
                   },
                   {
                     "width": 1200,
-                    "src": "/photos/stenvaller-utemiljo-1200.webp"
+                    "src": "https://images.pexels.com/photos/27307398/pexels-photo-27307398.jpeg?auto=compress&cs=tinysrgb&w=1200"
                   },
                   {
                     "width": 1600,
-                    "src": "/photos/stenvaller-utemiljo.webp"
+                    "src": "https://images.pexels.com/photos/27307398/pexels-photo-27307398.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                  },
+                  {
+                    "width": 2000,
+                    "src": "https://images.pexels.com/photos/27307398/pexels-photo-27307398.jpeg?auto=compress&cs=tinysrgb&w=2000"
                   }
                 ],
-                "alt": ""
+                "alt": "Flerbostadshus med välskött gräsmatta"
               },
               "cards": {
                 "order": [
@@ -1026,26 +1102,30 @@
                       "href": "#process"
                     },
                     "image": {
-                      "src": "/photos/stenvaller-gronyta.webp",
+                      "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=1600",
                       "variants": [
                         {
                           "width": 480,
-                          "src": "/photos/stenvaller-gronyta-480.webp"
+                          "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=480"
                         },
                         {
                           "width": 800,
-                          "src": "/photos/stenvaller-gronyta-800.webp"
+                          "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=800"
                         },
                         {
                           "width": 1200,
-                          "src": "/photos/stenvaller-gronyta-1200.webp"
+                          "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=1200"
                         },
                         {
                           "width": 1600,
-                          "src": "/photos/stenvaller-gronyta.webp"
+                          "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        },
+                        {
+                          "width": 2000,
+                          "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=2000"
                         }
                       ],
-                      "alt": ""
+                      "alt": "Gräsklippning av en gräsmatta"
                     }
                   },
                   "enstaka": {
@@ -1057,26 +1137,30 @@
                       "href": "#tjanster"
                     },
                     "image": {
-                      "src": "/photos/stenvaller-rojning.webp",
+                      "src": "https://images.pexels.com/photos/24595769/pexels-photo-24595769.jpeg?auto=compress&cs=tinysrgb&w=1600",
                       "variants": [
                         {
                           "width": 480,
-                          "src": "/photos/stenvaller-rojning-480.webp"
+                          "src": "https://images.pexels.com/photos/24595769/pexels-photo-24595769.jpeg?auto=compress&cs=tinysrgb&w=480"
                         },
                         {
                           "width": 800,
-                          "src": "/photos/stenvaller-rojning-800.webp"
+                          "src": "https://images.pexels.com/photos/24595769/pexels-photo-24595769.jpeg?auto=compress&cs=tinysrgb&w=800"
                         },
                         {
                           "width": 1200,
-                          "src": "/photos/stenvaller-rojning-1200.webp"
+                          "src": "https://images.pexels.com/photos/24595769/pexels-photo-24595769.jpeg?auto=compress&cs=tinysrgb&w=1200"
                         },
                         {
                           "width": 1600,
-                          "src": "/photos/stenvaller-rojning.webp"
+                          "src": "https://images.pexels.com/photos/24595769/pexels-photo-24595769.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        },
+                        {
+                          "width": 2000,
+                          "src": "https://images.pexels.com/photos/24595769/pexels-photo-24595769.jpeg?auto=compress&cs=tinysrgb&w=2000"
                         }
                       ],
-                      "alt": ""
+                      "alt": "Häckklippning med häcksax i en trädgård"
                     }
                   }
                 }
@@ -1102,26 +1186,30 @@
                       "href": "#offert"
                     },
                     "image": {
-                      "src": "/photos/stenvaller-fastighet.webp",
+                      "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=1600",
                       "variants": [
                         {
                           "width": 480,
-                          "src": "/photos/stenvaller-fastighet-480.webp"
+                          "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=480"
                         },
                         {
                           "width": 800,
-                          "src": "/photos/stenvaller-fastighet-800.webp"
+                          "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=800"
                         },
                         {
                           "width": 1200,
-                          "src": "/photos/stenvaller-fastighet-1200.webp"
+                          "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=1200"
                         },
                         {
                           "width": 1600,
-                          "src": "/photos/stenvaller-fastighet.webp"
+                          "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        },
+                        {
+                          "width": 2000,
+                          "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=2000"
                         }
                       ],
-                      "alt": ""
+                      "alt": "Flerbostadshus med en grön innergård"
                     }
                   },
                   "privat": {
@@ -1133,26 +1221,30 @@
                       "href": "#kontakt"
                     },
                     "image": {
-                      "src": "/photos/stenvaller-vinter.webp",
+                      "src": "https://images.pexels.com/photos/24595769/pexels-photo-24595769.jpeg?auto=compress&cs=tinysrgb&w=1600",
                       "variants": [
                         {
                           "width": 480,
-                          "src": "/photos/stenvaller-vinter-480.webp"
+                          "src": "https://images.pexels.com/photos/24595769/pexels-photo-24595769.jpeg?auto=compress&cs=tinysrgb&w=480"
                         },
                         {
                           "width": 800,
-                          "src": "/photos/stenvaller-vinter-800.webp"
+                          "src": "https://images.pexels.com/photos/24595769/pexels-photo-24595769.jpeg?auto=compress&cs=tinysrgb&w=800"
                         },
                         {
                           "width": 1200,
-                          "src": "/photos/stenvaller-vinter-1200.webp"
+                          "src": "https://images.pexels.com/photos/24595769/pexels-photo-24595769.jpeg?auto=compress&cs=tinysrgb&w=1200"
                         },
                         {
                           "width": 1600,
-                          "src": "/photos/stenvaller-vinter.webp"
+                          "src": "https://images.pexels.com/photos/24595769/pexels-photo-24595769.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        },
+                        {
+                          "width": 2000,
+                          "src": "https://images.pexels.com/photos/24595769/pexels-photo-24595769.jpeg?auto=compress&cs=tinysrgb&w=2000"
                         }
                       ],
-                      "alt": ""
+                      "alt": "Häckklippning med häcksax i en trädgård"
                     }
                   }
                 }
@@ -1171,26 +1263,30 @@
               "subheading": "Stenvaller Entreprenad AB är ett lokalt entreprenadföretag med bas i Stora Höga i Stenungsunds kommun.",
               "text": "Vi arbetar med fastighetsskötsel, utemiljö och markservice och hjälper fastighetsägare, företag, föreningar och andra kunder med både löpande service och enstaka arbeten.",
               "image": {
-                "src": "/photos/stenvaller-utemiljo.webp",
+                "src": "https://images.pexels.com/photos/27307398/pexels-photo-27307398.jpeg?auto=compress&cs=tinysrgb&w=1600",
                 "variants": [
                   {
                     "width": 480,
-                    "src": "/photos/stenvaller-utemiljo-480.webp"
+                    "src": "https://images.pexels.com/photos/27307398/pexels-photo-27307398.jpeg?auto=compress&cs=tinysrgb&w=480"
                   },
                   {
                     "width": 800,
-                    "src": "/photos/stenvaller-utemiljo-800.webp"
+                    "src": "https://images.pexels.com/photos/27307398/pexels-photo-27307398.jpeg?auto=compress&cs=tinysrgb&w=800"
                   },
                   {
                     "width": 1200,
-                    "src": "/photos/stenvaller-utemiljo-1200.webp"
+                    "src": "https://images.pexels.com/photos/27307398/pexels-photo-27307398.jpeg?auto=compress&cs=tinysrgb&w=1200"
                   },
                   {
                     "width": 1600,
-                    "src": "/photos/stenvaller-utemiljo.webp"
+                    "src": "https://images.pexels.com/photos/27307398/pexels-photo-27307398.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                  },
+                  {
+                    "width": 2000,
+                    "src": "https://images.pexels.com/photos/27307398/pexels-photo-27307398.jpeg?auto=compress&cs=tinysrgb&w=2000"
                   }
                 ],
-                "alt": ""
+                "alt": "Flerbostadshus med välskött gräsmatta"
               }
             },
             "process": {
@@ -1328,26 +1424,30 @@
               "anchor": "",
               "label": "",
               "image": {
-                "src": "/photos/stenvaller-utemiljo.webp",
+                "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=1600",
                 "variants": [
                   {
                     "width": 480,
-                    "src": "/photos/stenvaller-utemiljo-480.webp"
+                    "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=480"
                   },
                   {
                     "width": 800,
-                    "src": "/photos/stenvaller-utemiljo-800.webp"
+                    "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=800"
                   },
                   {
                     "width": 1200,
-                    "src": "/photos/stenvaller-utemiljo-1200.webp"
+                    "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=1200"
                   },
                   {
                     "width": 1600,
-                    "src": "/photos/stenvaller-utemiljo.webp"
+                    "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                  },
+                  {
+                    "width": 2000,
+                    "src": "https://images.pexels.com/photos/31656168/pexels-photo-31656168.jpeg?auto=compress&cs=tinysrgb&w=2000"
                   }
                 ],
-                "alt": ""
+                "alt": "Flerbostadshus med en grön innergård"
               },
               "size": "tall"
             },
@@ -1410,50 +1510,58 @@
                 "items": {
                   "bild-1": {
                     "image": {
-                      "src": "/photos/stenvaller-gronyta.webp",
+                      "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=1600",
                       "variants": [
                         {
                           "width": 480,
-                          "src": "/photos/stenvaller-gronyta-480.webp"
+                          "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=480"
                         },
                         {
                           "width": 800,
-                          "src": "/photos/stenvaller-gronyta-800.webp"
+                          "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=800"
                         },
                         {
                           "width": 1200,
-                          "src": "/photos/stenvaller-gronyta-1200.webp"
+                          "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=1200"
                         },
                         {
                           "width": 1600,
-                          "src": "/photos/stenvaller-gronyta.webp"
+                          "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        },
+                        {
+                          "width": 2000,
+                          "src": "https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=2000"
                         }
                       ],
-                      "alt": ""
+                      "alt": "Gräsklippning av en gräsmatta"
                     }
                   },
                   "bild-2": {
                     "image": {
-                      "src": "/photos/stenvaller-vinter.webp",
+                      "src": "https://images.pexels.com/photos/6952452/pexels-photo-6952452.jpeg?auto=compress&cs=tinysrgb&w=1600",
                       "variants": [
                         {
                           "width": 480,
-                          "src": "/photos/stenvaller-vinter-480.webp"
+                          "src": "https://images.pexels.com/photos/6952452/pexels-photo-6952452.jpeg?auto=compress&cs=tinysrgb&w=480"
                         },
                         {
                           "width": 800,
-                          "src": "/photos/stenvaller-vinter-800.webp"
+                          "src": "https://images.pexels.com/photos/6952452/pexels-photo-6952452.jpeg?auto=compress&cs=tinysrgb&w=800"
                         },
                         {
                           "width": 1200,
-                          "src": "/photos/stenvaller-vinter-1200.webp"
+                          "src": "https://images.pexels.com/photos/6952452/pexels-photo-6952452.jpeg?auto=compress&cs=tinysrgb&w=1200"
                         },
                         {
                           "width": 1600,
-                          "src": "/photos/stenvaller-vinter.webp"
+                          "src": "https://images.pexels.com/photos/6952452/pexels-photo-6952452.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        },
+                        {
+                          "width": 2000,
+                          "src": "https://images.pexels.com/photos/6952452/pexels-photo-6952452.jpeg?auto=compress&cs=tinysrgb&w=2000"
                         }
                       ],
-                      "alt": ""
+                      "alt": "Snö skottas bort från en trottoar"
                     }
                   }
                 }
@@ -1471,26 +1579,30 @@
                 "href": "/#tjanster"
               },
               "image": {
-                "src": "/photos/stenvaller-host.webp",
+                "src": "https://images.pexels.com/photos/1623214/pexels-photo-1623214.jpeg?auto=compress&cs=tinysrgb&w=1600",
                 "variants": [
                   {
                     "width": 480,
-                    "src": "/photos/stenvaller-host-480.webp"
+                    "src": "https://images.pexels.com/photos/1623214/pexels-photo-1623214.jpeg?auto=compress&cs=tinysrgb&w=480"
                   },
                   {
                     "width": 800,
-                    "src": "/photos/stenvaller-host-800.webp"
+                    "src": "https://images.pexels.com/photos/1623214/pexels-photo-1623214.jpeg?auto=compress&cs=tinysrgb&w=800"
                   },
                   {
                     "width": 1200,
-                    "src": "/photos/stenvaller-host-1200.webp"
+                    "src": "https://images.pexels.com/photos/1623214/pexels-photo-1623214.jpeg?auto=compress&cs=tinysrgb&w=1200"
                   },
                   {
                     "width": 1600,
-                    "src": "/photos/stenvaller-host.webp"
+                    "src": "https://images.pexels.com/photos/1623214/pexels-photo-1623214.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                  },
+                  {
+                    "width": 2000,
+                    "src": "https://images.pexels.com/photos/1623214/pexels-photo-1623214.jpeg?auto=compress&cs=tinysrgb&w=2000"
                   }
                 ],
-                "alt": ""
+                "alt": "Lövblåsning på hösten"
               },
               "secondHeading": "Löpande service eller enstaka uppdrag",
               "secondText": "Vi tar både enstaka jobb och återkommande service. Med ett löpande serviceavtal har fastigheten en och samma kontakt för skötseln under hela året.",

@@ -28,7 +28,7 @@ export function ServicesSection({ section, ctx }: SectionProps<"services">) {
             const wide = widenLast && index === lastIndex;
             return (
               <Reveal key={service.id} delayMs={(index % 4) * 70} className={wide ? "col-span-2" : ""}>
-                <ServiceCard service={service} linkPrefix={section.cardLinkPrefix} wide={wide} />
+                <ServiceCard service={service} linkPrefix={section.cardLinkPrefix} wide={wide} index={index} />
               </Reveal>
             );
           })}

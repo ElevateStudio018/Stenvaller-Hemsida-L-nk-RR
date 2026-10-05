@@ -8,7 +8,7 @@ import { CookieSettingsButton } from "./CookieSettingsButton";
 import { list } from "@/lib/site/collection.ts";
 import { toTelHref } from "@/lib/site/format.ts";
 import type { SiteData } from "@/lib/site/schema.ts";
-import topography from "@/assets/patterns/topography.svg";
+import hatch from "@/assets/patterns/hatch.svg";
 
 const headingClass = "text-[19px] font-semibold leading-tight lg:text-[22px]";
 // A thin line slides in from the left under a link on hover, like the links in the top bar. On phones the padding makes
@@ -28,16 +28,13 @@ export function Footer({ site }: { site: SiteData }) {
 
   return (
     <footer className="relative overflow-hidden bg-footer text-footer-text">
-      {/* Faint ring systems that merge into each other, tiling seamlessly over the whole footer. */}
+      {/* The site's diagonal stripes: a band in the accent colour along the top, faint over the rest of the footer. */}
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-0 bg-repeat opacity-[0.07]"
-        style={{
-          backgroundImage: `url(${topography.src})`,
-          backgroundSize: `${topography.width}px ${topography.height}px`,
-          backgroundPosition: "center top",
-        }}
+        className="pointer-events-none absolute inset-0 bg-repeat opacity-[0.045]"
+        style={{ backgroundImage: `url(${hatch.src})`, backgroundSize: `${hatch.width}px ${hatch.height}px` }}
       />
+      <div aria-hidden="true" className="stripe-band relative h-2.5" />
 
       <div className="relative mx-auto max-w-content px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
         <Reveal className="mb-8 border-b border-footer-text/15 pb-7 lg:mb-10 lg:pb-8">
@@ -74,9 +71,13 @@ export function Footer({ site }: { site: SiteData }) {
               <li className="flex items-start gap-3 py-2.5">
                 <Icon name="MapPin" strokeWidth={2.25} className="mt-0.5 h-5 w-5 shrink-0 text-footer-text/60" />
                 <span>
-                  {company.address.street}
-                  <br />
-                  {company.address.postalCode} {company.address.city}
+                  {company.address.street && (
+                    <>
+                      {company.address.street}
+                      <br />
+                    </>
+                  )}
+                  {[company.address.postalCode, company.address.city].filter(Boolean).join(" ")}
                 </span>
               </li>
               {company.openingHours && (
@@ -100,7 +101,7 @@ export function Footer({ site }: { site: SiteData }) {
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={label}
-                      className="flex h-11 w-11 items-center justify-center rounded-full border-[1.5px] border-footer-text/30 transition-colors hover:border-footer-text hover:bg-footer-text hover:text-footer"
+                      className="flex h-11 w-11 items-center justify-center border-[1.5px] border-footer-text/30 transition-colors hover:border-footer-text hover:bg-footer-text hover:text-footer"
                     >
                       <Icon name={icon} strokeWidth={2} className="h-5 w-5" />
                     </a>

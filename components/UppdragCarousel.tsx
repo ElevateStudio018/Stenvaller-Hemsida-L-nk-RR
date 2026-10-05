@@ -142,7 +142,7 @@ export function UppdragCarousel({ items, labels }: { items: (Uppdrag & { id: str
             >
               {/* The current position stretches from a dot into a short bar. */}
               <span
-                className={`block h-[11px] rounded-full transition-all duration-300 ease-out ${
+                className={`block h-[6px] transition-all duration-300 ease-out ${
                   page === activePage ? "w-7 bg-accent" : "w-[11px] bg-subtle group-hover/dot:bg-muted"
                 }`}
               />
