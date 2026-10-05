@@ -1,13 +1,12 @@
 import { SiteLink } from "../SiteLink";
-import { Stripes } from "../Stripes";
 import { list } from "@/lib/site/collection.ts";
 import { focusStyle, imageProps } from "@/lib/site/images.ts";
 import type { SectionProps } from "./types";
 
-// Which side the box sits on (desktop) and which corner the stripes fill.
+// Which side the box sits on (desktop).
 const sideClasses = {
-  left: { box: "lg:mr-auto lg:ml-12", pattern: "-right-10 -top-10" },
-  right: { box: "lg:ml-auto lg:mr-12", pattern: "-left-10 -bottom-10" },
+  left: { box: "lg:mr-auto lg:ml-12" },
+  right: { box: "lg:ml-auto lg:mr-12" },
 } as const;
 
 /** Thin outline pill; wrapped labels stay left-aligned like the single-line ones. */
@@ -35,7 +34,6 @@ export function PromoSection({ section }: SectionProps<"promo">) {
               <div
                 className={`relative mx-2 -mt-12 overflow-hidden bg-primary px-8 pb-8 pt-7 text-on-primary sm:mx-6 lg:-mt-48 lg:w-[46%] lg:p-12 ${classes.box}`}
               >
-                <Stripes className={`pointer-events-none absolute h-48 w-48 text-on-primary/[0.08] ${classes.pattern}`} />
                 <div className="relative">
                   <h2 className="text-h2 lg:text-[38px] lg:leading-[1.12]">{box.heading}</h2>
                   {box.text && <p className="mt-3 text-copy lg:mt-4 lg:text-lead">{box.text}</p>}

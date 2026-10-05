@@ -8,7 +8,6 @@ import { CookieSettingsButton } from "./CookieSettingsButton";
 import { list } from "@/lib/site/collection.ts";
 import { toTelHref } from "@/lib/site/format.ts";
 import type { SiteData } from "@/lib/site/schema.ts";
-import hatch from "@/assets/patterns/hatch.svg";
 
 const headingClass = "text-[19px] font-semibold leading-tight lg:text-[22px]";
 // A thin line slides in from the left under a link on hover, like the links in the top bar. On phones the padding makes
@@ -28,12 +27,6 @@ export function Footer({ site }: { site: SiteData }) {
 
   return (
     <footer className="relative overflow-hidden bg-footer text-footer-text">
-      {/* Faint diagonal stripes tiling over the whole footer. */}
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-0 bg-repeat opacity-[0.04]"
-        style={{ backgroundImage: `url(${hatch.src})`, backgroundSize: `${hatch.width}px ${hatch.height}px` }}
-      />
 
       <div className="relative mx-auto max-w-content px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
         <Reveal className="mb-8 border-b border-footer-text/15 pb-7 lg:mb-10 lg:pb-8">
