@@ -1,4 +1,4 @@
-// Phone numbers and other values derived from the company details, shared by the site and the admin.
+// Phone numbers and other values derived from the company details, used across the site.
 import type { Company } from "./schema.ts";
 
 /** "031-385 41 41" → "tel:+46313854141". */

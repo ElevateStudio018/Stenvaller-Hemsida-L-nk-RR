@@ -11,8 +11,7 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      // Every colour is a theme role from the content document (lib/site/theme.ts writes the variables), so the admin
-      // can change them. The channels-only variables keep Tailwind's opacity modifiers (bg-primary/20) working.
+      // Every colour is a theme role from the content document (lib/site/theme.ts writes the variables). The channels-only variables keep Tailwind's opacity modifiers (bg-primary/20) working.
       colors: {
         primary: role("primary"),
         secondary: role("secondary"),
@@ -33,16 +32,6 @@ const config: Config = {
         success: role("success"),
         warning: role("warning"),
         error: role("error"),
-        // The admin panel's own colours: its prime colour (chosen on the colour page) and a few warm neutrals.
-        admin: {
-          DEFAULT: "rgb(var(--admin-primary) / <alpha-value>)",
-          contrast: "rgb(var(--admin-primary-contrast) / <alpha-value>)",
-          canvas: "#F6F5F2",
-          ink: "#1E1E1C",
-          muted: "#6A6963",
-          subtle: "#9C9A93",
-          line: "#E8E6E1",
-        },
       },
       fontFamily: {
         sans: ["var(--font-body)"],

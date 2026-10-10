@@ -5,7 +5,6 @@ import { Icon } from "./Icon";
 import { buttonClasses, tapTarget } from "./Button";
 import { useQuoteModal } from "@/contexts/QuoteModalContext";
 import { fill, toTelHref } from "@/lib/site/format.ts";
-import { fallbackFormEmail, isConnected, supabaseAnonKey, supabaseUrl } from "@/lib/connection";
 import type { SiteData } from "@/lib/site/schema.ts";
 
 interface FormValues {
@@ -39,10 +38,11 @@ const fieldBaseClass =
 
 const labelClass = "mb-2 block text-[15px] font-semibold text-heading";
 
-// With the site connected to its backend, requests are stored for the admin's list and e-mailed by the submit-quote
-// function. Without it they go by e-mail through FormSubmit (formsubmit.co) to fallbackFormEmail; the first request to a
-// new address there only sends an activation e-mail, and nothing is forwarded until its link has been clicked.
-const submitUrl = `https://formsubmit.co/ajax/${fallbackFormEmail}`;
+// Requests go by e-mail through FormSubmit (formsubmit.co), a free service, so the site needs no backend of its own. The
+// first request to a new address only sends an activation e-mail, and nothing is forwarded until its link is clicked.
+// Elevate Studio receives them during the preview; at launch this becomes Stenvaller's own address.
+const FORM_EMAIL = "elevate.studio018@gmail.com";
+const submitUrl = `https://formsubmit.co/ajax/${FORM_EMAIL}`;
 
 const fieldIds: Record<keyof FormValues, string> = {
   namn: "namn",
@@ -122,40 +122,24 @@ export function QuoteForm({ variant = "inline", content }: { variant?: "inline" 
     setSendFailed(false);
     try {
       const workType = workTypes.find((typ) => typ.id === values.typAvArbete)?.label ?? values.typAvArbete;
-      if (isConnected) {
-        const response = await fetch(`${supabaseUrl}/functions/v1/submit-quote`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json", apikey: supabaseAnonKey, Authorization: `Bearer ${supabaseAnonKey}` },
-          body: JSON.stringify({
-            name: values.namn.trim(),
-            phone: values.telefon.trim(),
-            email: values.epost.trim(),
-            workType,
-            message: values.beskrivning.trim(),
-            website,
-          }),
-        });
-        if (!response.ok) throw new Error("Not sent");
-      } else {
-        const response = await fetch(submitUrl, {
-          method: "POST",
-          headers: { "Content-Type": "application/json", Accept: "application/json" },
-          body: JSON.stringify({
-            _subject: fill(texts.emailSubject, { namn: values.namn.trim() }),
-            _template: "table",
-            _captcha: "false",
-            _honey: website,
-            ...(values.epost.trim() ? { _replyto: values.epost.trim() } : {}),
-            Namn: values.namn.trim(),
-            Telefon: values.telefon.trim() || "–",
-            "E-post": values.epost.trim() || "–",
-            "Typ av arbete": workType,
-            Beskrivning: values.beskrivning.trim() || "–",
-          }),
-        });
-        const result: { success?: string | boolean } | null = await response.json().catch(() => null);
-        if (!response.ok || String(result?.success) !== "true") throw new Error("Not sent");
-      }
+      const response = await fetch(submitUrl, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          _subject: fill(texts.emailSubject, { namn: values.namn.trim() }),
+          _template: "table",
+          _captcha: "false",
+          _honey: website,
+          ...(values.epost.trim() ? { _replyto: values.epost.trim() } : {}),
+          Namn: values.namn.trim(),
+          Telefon: values.telefon.trim() || "–",
+          "E-post": values.epost.trim() || "–",
+          "Typ av arbete": workType,
+          Beskrivning: values.beskrivning.trim() || "–",
+        }),
+      });
+      const result: { success?: string | boolean } | null = await response.json().catch(() => null);
+      if (!response.ok || String(result?.success) !== "true") throw new Error("Not sent");
       setValues(initialValues);
       showConfirmation();
     } catch {

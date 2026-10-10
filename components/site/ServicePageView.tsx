@@ -13,7 +13,7 @@ import { fullAddress, seat, toE164, toTelHref } from "@/lib/site/format.ts";
 import { focusStyle, imageProps } from "@/lib/site/images.ts";
 import type { Service, SiteData } from "@/lib/site/schema.ts";
 
-/** A service's page, built from the service and the texts all service pages share. Also used by the admin preview. */
+/** A service's page, built from the service and the texts all service pages share. */
 export function ServicePageView({ site, service }: { site: SiteData; service: Service }) {
   const { company, servicePage: texts, ui } = site;
   const otherServices = list(site.services).filter((item) => item.slug !== service.slug);
